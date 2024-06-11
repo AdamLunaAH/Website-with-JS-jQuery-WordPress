@@ -1,0 +1,160 @@
+
+<!-- main template for a static page -->
+<!DOCTYPE html>
+<!-- header of the wordpress site -->
+<!-- the header includes more that just the code inside the <head> tag, it also includes the navigation bar in the <body> because it an element available on every page. -->
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Infomation om mig, mitt CV och arbeten">
+        <title>Om mig</title>
+
+        <!--css-->
+        <link href="style.css" rel="stylesheet">
+        <link href="css/calculator.css" rel="stylesheet">
+        <link href="css/jquery.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+
+
+
+        <!--javascript-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script defer src="js/script.js"></script>
+        <script defer src="js/calculator.js"></script>
+        <script defer src="js/javascript.js"></script>
+
+
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="faviconit/favicon.ico">
+	      <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
+	      <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="faviconit/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="faviconit/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="faviconit/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="faviconit/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="faviconit/favicon-16.png">
+        <link rel="apple-touch-icon" href="faviconit/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="faviconit/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="faviconit/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="faviconit/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="faviconit/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="faviconit/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="faviconit/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="faviconit/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="faviconit/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
+        <meta name="msapplication-config" content="faviconit/browserconfig.xml">
+      <!-- Wordpress header -->
+            </head>
+      <!-- body that links to the says what light mode is used by default -->
+      <body class="page light">
+      <header class="header">
+                <!--<navbar>-->
+                  <nav class="main-nav">
+                <!-- Logo -->
+                  <div class="logodiv">
+                    <a href="index.html" class="logo">
+
+                    <img src="img/headerImg.png" width="61" height="61" class="logoimg" alt="Home logo icon" >
+                    <p class="logoh1">Hem</p>
+                    </a>
+                  </div>
+                    <!-- Hamburger icon -->
+                        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <!-- Menu -->
+                        <ul class="menu">
+                  <li class="page_item page-item-31"><a href="om-mig.html">Om mig</a></li>
+<li class="page_item page-item-29"><a href="cv.html">CV</a></li>
+<li class="page_item page-item-22"><a href="exempel-webbsida.html">Exempelwebbplats</a></li>
+<li class="page_item page-item-74"><a href="svensk-artike.html/">Svensk artikel</a></li>
+<li class="page_item page-item-69"><a href="engelsk-artikel.html">Engelsk artikel</a></li>
+<li class="page_item page-item-14"><a href="jquery.html">jQuery och Canvas</a></li>
+<li class="page_item page-item-11"><a href="kalkylator.html">Kalkylator</a></li>
+<li class="page_item page-item-36"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                  </nav>
+                </header>
+
+                <main>
+                  <!-- a simple page template for the wordpress page creator/editor -->
+                      <div class="col-1 col-s-1"></div>
+                      <div class="col-10 col-s-10">
+                        <article>
+
+                  <h1 class="has-text-align-center">Länk till exempelwebbsida</h1>
+
+
+
+                  <div class="wp-container-1 is-content-justification-center wp-block-buttons">
+                  <div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link" href="#" style="border-radius:0px" target="_blank" rel="noreferrer noopener">Tryck för att komma till webbplatsen</a></div>
+                  </div>
+
+
+
+                  <div style="height:5rem" aria-hidden="true" class="wp-block-spacer"></div>
+                        </article>
+                      </div>
+                  </main>
+
+
+
+
+<footer class="col-12 col-s-12 footer-distributed">
+  <div class="footer-left">
+  <img class="footericon" src="img/footerImg.png" width="61" height="61"  alt="Icon" >
+      <h3>Min Hemsida</h3>
+      <p class="footer-company-name">© <span id="copyright"></span> Snow Production Studios  |  <a href="integritetspolicy.html">Integritetspolicy</a></p>
+  </div>
+  <div class="footer-center">
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-map-marker"></i>
+            <p><span>Stadstad</span>
+            123 45 Landland, Sweden</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-phone"></i>
+          <p>+46-1234567</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-envelope"></i>
+          <p><a href="mailto:support@placeholder">exempel@minhemsida.com</a></p>
+      </div>
+      <p class="footer-links">
+          <a href="index.html">Hem</a>
+          |
+          <a href="cv.html">CV</a>
+          |
+          <a href="om-mig.html">Om mig</a>
+          |
+          <a href="kontakt.html">Kontakt</a>
+      </p>
+  </div>
+  <div class="footer-right">
+  <div class="footer-translate">[gtranslate] </div>
+  <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked>
+        <label for="theme" class="toggle-label">
+        <img src="img/moon.png" alt="Dark mode" class="toggle-icon">
+        </label>
+      </div>
+      <p class="footer-company-about">
+          <br><span>Om mig</span>
+          En hemsida för information, CV och utförda arbete av mig.</p>
+  </div>
+  </footer>
+  <!-- links the css and javascript files, and adds the wordpress admin header to the web page -->
+
+            <!-- fontawesome css -->
+          <link href="fontawesome_5.15.4/css/fontawesome.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/solid.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/brands.css" rel="stylesheet">
+          <!-- fontawesome javascript -->
+          <script defer src="fontawesome_5.15.4/js/solid.js"></script>
+          <script defer src="fontawesome_5.15.4/js/brands.js"></script>
+          <script defer src="fontawesome_5.15.4/js/fontawesome.js"></script>
+  </body>
+  </html>

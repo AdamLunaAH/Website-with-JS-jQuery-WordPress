@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* jQuery/JavaScript/canvas examples css*/
+.javaexample {
+  align-items: center;}
+#jqbox {
+  margin: auto;
+  width: 100%;
+  background-color: #ff0000;
+  margin-top: 50px;
+  padding: 1rem;}
+#jsbox {
+  margin: auto;
+  width: 100%;
+  background-color: #00ffff;
+  margin-top: 50px;
+  padding: 1rem;}
+/* div color changes */
+@media screen and (max-width: 1600px) {
+  #jqbox {
+    background-color: #ffff00;}
+  #jsbox {
+    background-color: #0000ff;}}
+@media screen and (max-width: 1200px) {
+  #jqbox {
+    background-color: #00ff00;}
+  #jsbox {
+    background-color: #ff00ff;}}
+@media screen and (max-width: 800px) {
+  #jqbox {
+    background-color: #de4c8a;}
+  #jsbox {
+    background-color: #21b375;}}
+@media screen and (max-width: 400px) {
+  #jqbox {
+    background-color: #2271b3;}
+  #jsbox {
+    background-color: #dd8e4c;}}
+/* canvas */
+#canvasdiv {
+  text-align: center;
+ } #canvasicon {
+   position: relative;
+   display: inline;
+   width: auto;
+   height: auto;
+   max-width: 70%;
+   background-color: white;
+   /*border: 0.2rem solid var(--text-main);*/
+ } .canvaspng {
+  width: 100%;
+  height: auto;
+  max-width: 70%;}

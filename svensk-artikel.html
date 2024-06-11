@@ -1,0 +1,379 @@
+
+<!-- main template for a static page -->
+<!DOCTYPE html>
+<!-- header of the wordpress site -->
+<!-- the header includes more that just the code inside the <head> tag, it also includes the navigation bar in the <body> because it an element available on every page. -->
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Infomation om mig, mitt CV och arbeten">
+        <title>Om mig</title>
+
+        <!--css-->
+        <link href="style.css" rel="stylesheet">
+        <link href="css/calculator.css" rel="stylesheet">
+        <link href="css/jquery.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+
+
+
+        <!--javascript-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script defer src="js/script.js"></script>
+        <script defer src="js/calculator.js"></script>
+        <script defer src="js/javascript.js"></script>
+
+
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="faviconit/favicon.ico">
+	      <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
+	      <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="faviconit/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="faviconit/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="faviconit/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="faviconit/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="faviconit/favicon-16.png">
+        <link rel="apple-touch-icon" href="faviconit/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="faviconit/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="faviconit/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="faviconit/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="faviconit/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="faviconit/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="faviconit/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="faviconit/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="faviconit/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
+        <meta name="msapplication-config" content="faviconit/browserconfig.xml">
+      <!-- Wordpress header -->
+            </head>
+      <!-- body that links to the says what light mode is used by default -->
+      <body class="page light">
+      <header class="header">
+                <!--<navbar>-->
+                  <nav class="main-nav">
+                <!-- Logo -->
+                  <div class="logodiv">
+                    <a href="index.html" class="logo">
+
+                    <img src="img/headerImg.png" width="61" height="61" class="logoimg" alt="Home logo icon" >
+                    <p class="logoh1">Hem</p>
+                    </a>
+                  </div>
+                    <!-- Hamburger icon -->
+                        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <!-- Menu -->
+                        <ul class="menu">
+                  <li class="page_item page-item-31"><a href="om-mig.html">Om mig</a></li>
+<li class="page_item page-item-29"><a href="cv.html">CV</a></li>
+<li class="page_item page-item-22"><a href="exempel-webbsida.html">Exempelwebbplats</a></li>
+<li class="page_item page-item-74"><a href="svensk-artikel.html">Svensk artikel</a></li>
+<li class="page_item page-item-69"><a href="engelsk-artikel.html">Engelsk artikel</a></li>
+<li class="page_item page-item-14"><a href="jquery.html">jQuery och Canvas</a></li>
+<li class="page_item page-item-11"><a href="kalkylator.html">Kalkylator</a></li>
+<li class="page_item page-item-36"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                  </nav>
+                </header>
+
+
+                <main class="articletext">
+
+                  <!-- table of content -->
+                  <nav class="section-nav">
+                      <ol>
+                        <li><a class="scrolltable" href="#summary">Sammanfattning</a></li>
+                        <li><a class="scrolltable" href="#introduction">1 Introduction</a></li>
+                        <li><ul>
+                        <li><a class="scrolltable" href="#purpose">1.1 Syfte och frågeställning</a></li>
+                        <li><a class="scrolltable" href="#method">1.2 Metod</a></li>
+                        </ul></li>
+                        <li><a class="scrolltable" href="#background">2 Backgrund</a>
+                        <li><a class="scrolltable" href="#result">3 Resultat</a>
+                          <ul>
+                            <li class=""><a class="scrolltable" href="#result--1">3.1 Hur utvecklades det könsneutrala pronomen i det svenska språket?</a></li>
+                            <li class=""><a class="scrolltable" href="#result--2">3.2 Vilka tankar för och emot fanns och finns till könsneutralt pronomen?</a></li>
+                            <li class=""><a class="scrolltable" href="#result--3">3.3 Kan ett könsneutralt språk påverka jämställdheten i samhället?</a></li>
+                          </ul>
+                        </li>
+                        <li class=""><a  class="scrolltable" href="#discussion">4 Diskussion</a></li>
+                        <li class=""><a  class="scrolltable" href="#references">5 Källförteckning</a></li>
+                      </ol>
+                    </nav>
+
+                    <!-- article -->
+                    <div class="row">
+                    <div class="col-12 col-s-12">
+
+                  <h1>Könsneutralt språk i svenskan</h1>
+
+                  <div class="topartimg">
+                    <picture>
+                      <source srcset="img/Intersex-inclusive_pride_flag.svg" type="image/svg+xml">
+                      <source srcset="img/Intersex-inclusive_pride_flag.webp" type="image/webp">
+                      <img class="topimg" src="img/Intersex-inclusive_pride_flag.png" alt="Intersex-inclusive pride flag">
+                        </picture>
+                        <p class="imgtext"><small>Intersex-inclusive pride flag by Valentino Vecchietti, Authored by Nikki via <a href="https://commons.wikimedia.org/wiki/File:Intersex-inclusive_pride_flag.svg" target="_blank">Wikimedia</a> under Creative Commons <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank">CC0 1.0.</a></small></p>
+
+                  </div>
+
+                  <p class="midpb">Hur ett könsneutralt språk har förbättrat vårt samhälle</p>
+
+                  <p class="midp">av</p>
+
+                  <p class="midp">Adam<br></p>
+
+
+
+                  <section id="summary">
+
+                  <h2>1 Sammanfattning</h2>
+
+                  <p>Denna uppsats kommer att utreda hur det könsneutrala pronomenet utvecklades i Sverige och hur detta kan ändra jämlikheten mellan könen i samhället. Med hjälp av frågeställningar kommer resultatet att presenteras. Information kommer att tas från radioprogram, nyhetsartiklar, krönikor och vetenskapliga artiklar.</p>
+
+                  <p>Uppsatsens disposition börjar med en bakgrund som beskriver svenska språkets historia och utveckling av könsbestämt och könsneutralt språk och pronomen sedan 1200-talet. Därefter kommer frågeställningarna som börjar med att det könsneutrala personliga pronomenet ”hen” gavs som förslag under 1960-talet, men snabbt skulle dö ut. Men därefter återkomma året 2012 och utvecklas i användning i samhället. Sedan förklaras vilka tankar det finns för och emot hen-pronomen. De tidiga åsikterna för inkluderingen av hen är att det skulle göra språket enklare. Senare åsikter för ordet ”hen” är att det skulle skapa att mer inkluderande språk och förbättra HBTQI-personers mentala hälsa. Som sista frågeställningen kommer det att förklara hur ett mer inkluderande språk kan skapa ett mer inkluderande samhälle för HBTQI-personer och skapar ett mer jämlikt samhälle.<br></p>
+
+                  </section>
+
+                  <section id="introduction">
+
+                  <h2>1 Inledning</h2>
+
+                  <p>Språket är självklart en viktig del i vårt samhälle, det är mycket svårt att tänka på hur det skulle se ut om språket inte fanns. Hur språken ser ut har ändrats under tidens gång, det kan både vara en långsam process eller att någon ger ett förslag på en ändring som kanske aldrig genomförs eller snabbt får spridning. En förändring av språket kan vara allt från ett nytt ord för en ny produkt, till en ändring av språkets grundläggande grammatik och form. En av dessa förändringar är utvecklingen av ett könsneutralt svenskt språk. Där små ändringar och tillägg kan ändra språkets grundläggande delar, och denna utveckling kan skapa större mer samhällsförändrande effekter. Denna utveckling av könsneutrala ändringar och effekterna av dessa kommer att utredas i denna uppsats, som hur jämlikheten kan ökas med könsneutrala pronomen.</p>
+
+                  <p>Arbetet är strukturerat med att det börjar med att förklara hur svenska språkets förändring till ett mer könsneutralt språk började och genomfördes för många hundra år sen. Därefter förklaras hur vår moderna tids utveckling av könsneutrala pronomen fullföljdes, och om det kan tänkas ändra samhällets syn på kön och jämlikhet.</p>
+
+                  </section>
+
+
+                  <section id="purpose">
+
+                  <h3>1.1 Syfte och frågeställning</h3>
+
+                  <p>Syften med arbetet är att utreda hur ett könsneutralt språk kan utvecklas och leda till ändrade könsnormer som kan påverka hur samhället ser på det kvinnliga och manliga. Men även hur samhället kan se på homosexuella, bisexuella, transpersoner, personer med queera uttryck och identiteter och intersexpersoner (HBTQI) samt om det skapar en mer inkluderade tillvaro eller om det blir ett försämrat tillstånd.</p>
+
+                  <ul><li class="point">Hur utvecklades det könsneutrala pronomen i det svenska språket?</li><li class="point">Vilka tankar för och emot fanns och finns till könsneutralt pronomen?</li><li class="point">Kan ett könsneutralt språk påverka jämställdheten i samhället?</li></ul>
+
+                  </section>
+
+                  <section id="method">
+
+                  <h3>1.2 Metod</h3>
+
+                  <p>Jag kommer att använda mig av information som finns på internet. Böcker är svårare att hitta eftersom detta forskningsområde har utvecklats först under de senaste tjugo åren, och under de senaste tio åren fått ett större fokus i Sverige. Därför finns mycket av informationen kring detta område på nätet i stället för i böcker. Information kommer att tas från forskningsartiklar och journaler. Vad folks åsikter kring det könsneutrala språket är kommer även att tas från politiska källor, nyhetsartiklar, tidningsledare och krönikor. Dessa är självklart inte neutrala men de ger en översikt av vad folks kritik och tankar kan vara.</p>
+
+                  <p>En av källorna som används är Proceedings of the National Academy of Sciences of the United States of America (PNAS) detta ser jag som en pålitlig källa. Artiklar som publiceras referatgranskas för att säkerställa om de uppnår hög forskningsstandard. Artikeln som jag använder mig av är en undersökning som genomfördes av ett samarbete mellan olika universitet. Detta kan också öka pålitligheten.</p>
+
+                  </section>
+
+                  <section id="background">
+
+                  <h2>2 Bakgrund</h2>
+
+                  <p>Könsbestämt pronomen i det svenska språket kommer från språkets ursprung i den medeltida fornsvenskan från 1200-talet (Västerdal, 2012). Pronomen var då uppdelade i tre grupper med två av dem som var grupperade med varandra. Det manliga och kvinnliga var indelade tillsammans, denna grupp var sedan kallad utrum (Prefix.nu, u. å.). I denna grupp ingick många av våra ord som fortfarande används. Som till exempel pojke och flicka, men även ord som klocka och måne. Den tredje grupperingen är neutrum, där ord som inte passar in i varken det manliga eller kvinnliga ingår. Där ord som barn och hus ingår. Hur de olika grupperna definierades har ändrats från fornsvenskan, då utrum definierades genom att ord som slutade med ”-e” var manligt och ord som slutade med ”-a” var kvinnligt. Neutrum var specificerat som ord som inte ingick i den andra gruppen, utrum.</p>
+
+                  <p>Detta är inte hur de två grupperna är definierade nu.&nbsp; Nu är ett utrumord definierat som ett ord där ”en” kan sättas in innan ordet, exempelvis en flicka, en måne. Neutrum är definierat som ett ord där ”ett” kan sättas in innan ordet, exempelvis ett barn och ett hus.</p>
+
+                  <p>Vårt språk var då under början av medeltiden mycket indelat i de då två genusen, manligt och kvinnlig (Västerdal, 2012). Men även med det så utvecklades både nya och gamla ord till att inte ingå i de två könen. Historiker och språkvetare vet fortfarande inte varför denna utveckling startades och spreds, eftersom den utvecklades på många platser som fortfarande var separerade från varandra. Men en del tankar kring varför det utfördes förekommer: 1. Svenskan var ett mycket komplicerat språk med många böjningsformer av orden och folk började då förenkla orden, där en del former då försvann. 2. Det fanns en stor andel tyskar i Sverige under den tiden som både hade svårt att lära sig alla de olika böjningsformerna i svenskan. De införde även nya ord till svenskan. Där många av de nya orden blev placerade i neutrumklassen, som till exempel ordet fönster.</p>
+
+                  </section>
+
+                  <section id="result">
+
+                  <h2>3 Resultat</h2>
+
+
+                  <section id="result--1">
+
+                  <h3>3.1 Hur utvecklades det könsneutrala pronomen i det svenska språket?</h3>
+
+                  <p>Utvecklingen av ett mer könsneutralt svenskt språk har som sagt en längre historia i Sverige, men något som inte har utvecklas förens under de senaste 50 åren är ett könsneutralt personligt pronomen. Som han, hon och henne. Den första skrivningen för ett könsneutralt personligt pronomen var sedd i Upsala Nya Tidning den 30 november 1966 i en artikel skriven av språkvetaren Rolf Dunås (Dunås, 1966). Där han förespråkade ett till pronomen som kan användas i stället för orden <em>han</em> och <em>hon</em>. Han förklarar att ordet ”han” har använts för att påpeka en person men att det blivit vanligare att skriva ”han eller hon” och ”han/hon”. Eftersom detta då skapar mer text än vad som egentligen skulle vara nödvändigt, så uttrycker han förslaget att ett till personligt pronomen ska läggas till i språkbruket för att syfta på en person som skulle kunna vara både en ”han” eller ”hon” (Tolstav, 2016). Då finskan inte har könspronomen, så föreslår han att det finska personliga pronomenet även skulle kunna användas i svenskan. Det finska ordet var ”hän” och skulle då ändras till ett mer svenskt ord och bli ordet ”hen”.</p>
+
+                  <p>Detta förslag av Rolf Dunås fick inte något genomslag men det var det första exemplet på användning av ordet ”hen”, som får ett mycket större genomslag fyra decennier senare. Förslag på att könsneutrala pronomen ska användas i svenskan i sammanhang när man inte vet könet eller där könet inte är relevant, har framkommit vid flera tillfällen efter Rolf Dunås artikel. Några som angett samma argument för ett könsneutralt pronomen som Dunås är lingvisterna Mikael Reuter i sin artikel 1991 (Reuter, 1991) och Hans Karlgren i Svenska Dagbladet 1994 (Björkman, 2012).</p>
+
+                  <p>Ordet ”hen” har även använts i statliga dokument innan 2000-talet. Men detta användes bara i ett dokument, och det var i Byggforskningsrådets rapport R39:1980, <em>Att värdera byggd miljö</em> (Söderling, 2013).</p>
+
+                  <p>Dessa användningar och uppmaningar av könsneutrala personliga pronomen innan 2000-talet utökade inte användningen av dem, och användning av ordet ”hen” startade inte utan försvann.</p>
+
+                  <p>Användning av könsneutralt personligt pronomen skulle återkomma efter millenniumskiftet, men denna gång kom det att inte försvinna ur vår användning av språket. Införandet av det nya pronomenet i ett mycket större sammanhang startade i början av år 2012 (Holmberg, 2017). Då den första betydande publiceringen och användningen av ordet ”hen” var i Jesper Lundqvists barnbok, Kivi &amp; Monsterhund (Milles, 2013<strong>). </strong>Detta ledde till att både personer som var för och emot användningen av ett nytt pronomen gav sina åsikter och tankar, men detta besvaras i nästa frågeställning. Publiceringen av barnboken ledde till att fler personer och organisationer började använda ordet ”hen”, och innan åretsslut hade detta nya pronomen använts i vardagligt tal, av politiska organisationer och journalister. Många av det vardagliga talets förespråkare är personer som är inkluderade inom någon trans- och intersexuella minoriteter. Även om queerpersoner hade använt ”hen” och könsneutralt pronomen tidigare, hade ordet nu fått en större spridning (Språket dokumentär, 2018). Vilket ger folket en större kunskap om att ordet finns, och kan användas för mer än att bara syfta på en person där man inte vet könet. Inom politiska- och statliga organisationer började hen-pronomen användas, där Miljöpartiet ersatte formuleringar som ”han eller hon” med ”hen” (Svensson, 2012). Och ”hen” användes även i Hovrätten för övre Norrland (Gustavsson, 2012b). Många journalister och nyhetsorganisationer skulle ta till sig ordet ”hen”, till exempel använde tidningen Nöjesguiden endast ordet ”hen” i sitt andra nummer, 2012 (Nöjesguidens Redaktion, 2012). Andra nyhetsorganisation skulle komma att ha den motsatta åsikten, där Dagens Nyheters dåvarande chefredaktör, Gunilla Tillberg, förbjöd användning av ordet ”hen” (Gustavsson, 2012a).</p>
+
+                  <p>Även med det dåvarande motståndet till hen-pronomen, skulle användningen öka och spridas till många fler i det svenska samhället. Efter hen-pronomens stora genombrottsår 2012, skulle användning snabbt öka i en del samhällsgrupper. Exempelvis är queergrupper en stor användare av ordet (Tendens – kortdokumentär, 2021). En stor användare av hen-pronomen från ett tidigt stadium är gymnasieutbildningar och gymnasielever, där det i Finland redan 2013 kom att användas i studentprov (Holmberg, 2017). Studenter generellt kom att bli en stor användare av ordet ”hen”.</p>
+
+                  <p>Hen-pronomen fick 2014 ett stort uppsving då ordet kom att läggas till i Svenska Akademins ordlista (SAOL) (Magnusson, 2014). Eftersom ordet då blev ett officiellt ord i formell svenska genom SAOL, ökade användningen enormt inom journalistiken (Svensson, 2016). Vilket statistiken tydligt visar då det under år 2015 gick 179 ”han” och ”hon” på varje ”hen”. Detta är en enorm skillnad från åren innan då denna siffra år 2014 var 241, år 2013 drygt 300, år 2012 drygt 400 och år 2011 över 13 000.</p>
+
+                  <p>År 2015 och senare fick hen-pronomen en mer vardaglig och erkänd användning i samhället. Användningen har även ändrats från att till större del syfta på queerpersoner när ordet återkom i debatten år 2012, till att få en större användning till att syfta på en person där man inte vet könet eller där det inte är relevant (Språket dokumentär, 2018). Användandet av ”hen” inom myndigheter är fortfarande låg (TT, 2014). Riktlinjerna kring användning av ”hen” inom myndigheter var senast uppdaterade 2014, vilket inkluderar användning av ”hen” (Språkrådet, 2014). Riktlinjerna är mycket grundläggande som säger att ordet kan användas, men tydliggör inte användningen mer än så.</p>
+
+                  </section>
+
+                  <section id="result--2">
+
+                  <h3>3.2 Vilka tankar för och emot fanns och finns till könsneutralt pronomen?</h3>
+
+                  <p>Argument för och emot könsneutralt pronomen kopplat till könsroller och jämlikhet utvärderas i frågeställningen ”Kan ett könsneutralt språk påverka könsrollerna?”.</p>
+
+                  <p>Människors tankar och åsikter till att inför pronomen hen har varierat under tidens gång. Åsikterna för att använda ordet ”hen” under 1960-talet och 1980-talet var av praktisk betydelse (Söderling, 2013). Rolf Dunås och Byggforskningsrådets rapport förespråkade användningen av ordet för att det skulle minska användningen av papper, trycksvärta, läs- och skrivtid. Åsikter emot ordet ”hen” under deras tid var mycket liten, då inget direkt motstånd fanns. Orsaken till att det inte fick någon spridning var att en tillräcklig stor del människor inte såg deras åsikter om ordet ”hen”. Användningen av ordet ”hen” fick då ingen spridning. Under 1990-talet var hen-diskussionen fortfarande mer praktisk i betydelse. Förespråkarna gav inte argumenten att det skulle minska papper- och bläckkostnader, utan att det i stället skulle förenkla skriftspråket (Björkman, 2012). Tillfällen där ”han eller hon” och ” de vederbörande” används kan bytas ut till ”hen”. Även denna gång förlorande det könsneutrala pronomen kampen. Men denna gång fanns mer direkta motargument. Tilläggandet av ”hen” sågs inte som nödvändigt, då ord och meningar som hade samma betydelse redan användes.</p>
+
+                  <p>När diskussionen kring könsneutrala pronomen återkom 2012, skulle den använda nya annorlunda argument för och därmed också emot ett mer könsneutralt språk. Det gamla argumentet att det skulle förenkla språket var kvar, men mer utvidgat och tydligare. Men det andra argumentet som skulle ta stor kraft var att det skulle ge queerpersoner ett nytt pronomen som kunde användas i samhället (Språket dokumentär, 2018). Queerpersoner, särskilt trans- och intersexpersoner, ville ha ett personligt pronomen som de själv kunde använda för att känna sig mer inkluderade och jämlika med resten av folket (Åsell, 2012). Detta skulle då kunna förbättra deras mentala hälsa, som länge varit ett stort problem inom den mentala hälsan inom HBTQI (SKR 2016/17:10). Eftersom känslan av att man inte tillhör samhället är vara mycket skadligt för ens mentala hälsa.</p>
+
+                  <p>Åsikterna mot införandet av hen-pronomen, 2012, hade en del olika grundpunkter. Ett av motargumenten gav liknande tankar som de tidigare diskussionerna kring ”hen”. Där ett nytt könsneutralt pronomen inte är nödvändigt då ordet ”den” redan används i liknande sammanhang som ”hen” skulle användas i (Tendens – kortdokumentär, 2021). Argument för ”hen” som motargumenterar åsikterna emot ordet är att ”den” inte ska användas som könsneutral pronomen eftersom det ger en annan betoning på könet än vad ”hen” ger. Som Ylva Byrman i Svenska Dagbladet betonar ”Vi kan använda ”hen” som könsneutralt pronomen när vi vill att [könet] ska märkas – och ”den” när vi vill att [könet] <em>inte</em> ska märkas.” (Byrman, 2012). Ett annat argument mot tillägget av ett könsneutralt pronomen har en direkt koppling till queerfobin (Språket dokumentär, 2018). Där tankar som ”varför ska ett tredje pronomen läggas till när det bara finns två kön, han och hon?” förekommer mycket. Motargument från de som är för könsneutralitet är att om personens sexualitet helt bortförklaras så känner de sig utanför, vilket gör att deras tillvaro i samhället försämras.</p>
+
+                  </section>
+
+                  <section id="result--3">
+
+                  <h3>3.3 Kan ett könsneutralt språk påverka jämställdheten i samhället?</h3>
+
+                  <p>Det korta svaret är, ja. Men för att börja besvara denna fråga så återkopplar jag och presenterar för och emot argument till det könsneutrala personliga pronomenet ”hen” kring dess användning i barns uppväxt och utbildning. Orsaken till detta är för att mycket av våra intryck tar vi in under just den tiden av vår uppväxt.</p>
+
+                  <p>Personer som argumenterar mot könsneutralitet för barn presenterar åsikter som att män och kvinnor har olika hjärnor vilket gör att deras beteende är olika (Svensson, 2013), som att kvinnor är sårbara och män har fler tillfälliga förbindelser. Om då barnen skulle få en neutral utbildning så skulle de bli förvirrade av vilket kön de har.</p>
+
+                  <p>Argument för en könsneutral utbildningen och normmedveten pedagogik är att det ger en mycket positiv effekt för barns uppväxt, då könsstereotyper får en mindre påverkan och inte utvecklas till samma nivå som kan påverka ens tankar och åsikter kring kön senare i livet (Koffmar, 2017).</p>
+
+                  <p>Nu kommer ett mer övergripande svar på varför ett könsneutralt språk är bra.</p>
+
+                  <p>Ett språk som är mer könsneutralt skapar ett mer jämlikt samhälle där användning av det personliga pronomenet ”hen” ökar jämlikheten i samhället. Detta är något som Margit Tavits, Department of Political Science, Washington University in St. Louis, och Efrén O. Pérez, Department of Political Science, University of California kommer fram till i deras rapport “Language influences mass opinion toward gender and LGBT equality”, från 2019 (Pérez, Tavits, 2019). Deras studie var att undersöka om ett mer könsneutralt språk och pronomen kan öka jämställdheten. Där de använde Sverige och användning av ”hen” till grund för studien. Resultat de kom fram till var att innan ordet ”hen” tillkom, så användes det maskulina ”han” för att tilltala båda män, kvinnor och icke-binära. När ”han” var standarden blev även det manliga standard, och gav samhället en mer maskulin kognitiv bias. När ”hen” sedan tillkom tog hen-pronomen över en stor användning där ”han” tidigare använts och ändrade den kognitiva biasen. Detta ökade människors tolerans till HBTQI-personer. Tavits och Pérez beskriver att en del grupper och politiker säger att det inte är någon mening med att lägga till ordet ”hen” för det skulle inte göra samhället mer jämställt. Tavits och Pérez skriver i studien att de kommit fram till att ändringen av endast ett ord skapar en stor skillnad i att minska patriarkatets kraft och öka folkets förståelse och tolerans för både HBTQI-personer och kvinnor, och därmed ökar jämställdheten i samhället.</p>
+
+                  </section>
+                  </section>
+
+                  <section id="discussion">
+
+                  <h2>4 Diskussion</h2>
+
+                  <p>Avslutningsvis så kommer jag nu att återkoppla resultatet och ge mina egna tankar kring varför resultatet ser ut som det gör.</p>
+
+                  <p>Som resultatet säger har språket vi använder en stor påverkan på samhället i sin helhet. Språket kan både förbättra och försämra samhällets syn på jämställdhet mellan könen och HBTQI-fobin, beroende på hur språket ser ut och används. Där ett mer könsneutralt och inkluderande språk kan förbättra samhället, men beroende på ens personliga åsikter så kan det dock ses som en försämring i samhället men jag kommer in på det under de mer personliga tankar senare.</p>
+
+                  <p>Språk har förändrats under tidens gång och kommer att fortsätta förändras, men beroende på vad som ändras i språket kan det vara svårare eller enklare att ändra det. Där nya ord och låneord för nya saker och begrep är mycket enklare att läggas till i språket, än nya ord med en större koppling till språkets grundgrammatik. Där nya ord som ”gaslighta” som är taget från ett engelskt ord och begrepp enkelt kan inkluderas i svenskan. Ett nytt pronomen som ”hen” var mycket svårt att inkludera i svenskan då det ändrade en mer grundläggande del av det svenska språket och ordet hade en stor grupp motståndare.</p>
+
+                  <p>Åsikterna varför det svenska språket ska inkludera ett könsneutralt pronomen har ändrats under tidens gång. Där orsaken till att lägga till ordet ”hen” under 1960- och 1980-talet var att det skulle spara pengar, resurser och tid. Om man skulle använda ”hen” i stället för ”han eller hon” eller ”den vederbörande” så skulle antalet ord som skrivs ut och användningen av papper och trycksvärta minska. Det fanns då inget specifikt motargument till ordet ”hen”. Det var i stället mer att ordet spreds av endast några få personer som Rolf Dunås, och inte spreds till fler potentiella användare vilket ledde till att spridningen dog ut. När ordet sedan under 2000-talet återkom hade argumenten ändrats till att pronomen ”hen” kan användas för att inkludera fler kön i det vardagliga språket. Där det tidigare fanns personer inom HBTQI som ville ha ytterligare ett mer passande pronomen eftersom många av dem inte passade inom de tidigare ”han” och ”hon”. De kunde då passa bättre in och känna sig mer inkluderande i samhället. Motargument emot dessa var mer direkta och fler än tidigare, med exempel som att det redan finns könsneutrala pronomen som ordet ”dem”. Andra motargument till användningen av könsneutralt pronomen och inkluderande uttryck var att det skulle förvirra barnen och samhället. Trots att det könsneutrala och inkluderande pronomen ”hen” väckte starkt motstånd, så kom det ändå att användas i större utsträckning och inkluderades 2015 i Svenska Akademins ordlista. Efter detta har pronomen ”hen” fortsatt att användas av folk som inte passar inom pronomen ”han” och ”hon”, men har också återgått till att användas i sammanhang som det argumenterades för under 1960-talet. Där inkluderandet av ”hen” nu förenklat språket och används där könet på personen inte är känt eller relevant.</p>
+
+                  <p>Nu kommer jag ge några egna tankar kring ämnet och hur svaren på frågeställningarna är kopplade till samhället. Att könsneutrala pronomen kan förenkla och förtydliga språket är mycket tydligt och positivt resultat. Som jag sa tidigare om hur en persons socialt politiska sida kan bestämma ens egna åsikter om vad som ses försämra eller förbättra samhället, så skulle jag säga att denna koppling finns starkt i debatten ”könsneutralt personligt pronomen”. Där socialt konservativa är mycket fientliga till ett mer inkluderade samhälle. I de källor som jag använt, men även källor jag inte använde i detta arbete, ges intrycket att källor som är för könsneutralt pronomen har koppling till sexuella minoriteter samt socialt progressiva grupper och organisationer. Där minoriteternas mål ofta är att de bara vill känns sig på samma nivå som folk i de traditionella könsgrupperna. Personerna med socialt konservativa åsikter är dock emot detta och vill bevara det traditionella samhället. Hur de ska tillfredsställa folk som inte ingår i det traditionella man och kvinna får jag intrycket av att de i bästa fall inte tänkt på, och i värsta fall aggressivt är emot med förtryck och våld. De progressiva grupperna är då självklart för jämlikhet mellan de olika könsgrupperna, och i detta även större jämlikhet för HBTQI och även för kvinnor. Mitt intryck är att de konservativa grupperna då är mer för att mannen och det manliga är störst och alla andra kommer under. Detta skulle jag se som något mycket negativt. Jag skulle själv säga att vi alla ska försöka skapa ett mer inkluderande och jämställt samhälle som hjälper varandra.</p>
+
+                  <p>Detta är då arbetets slutsats och hur jag själv kopplar ett mer könsneutralt språk till hur det kan kopplas till samhället och hur detta kan och har ändrats till att bli ett mer inkluderande och jämlikt samhälle.</p>
+
+                  </section>
+
+                  <section id="references">
+
+                  <h2>Källförteckning</h2>
+
+                  <p>Björkman, Anders Q. (2012) ”Hen” föreslogs av språkforskare redan 1994 – i SvD. <em>Svenska Dagbladet</em>, 8 mars<em>.</em> <a href="http://blog.svd.se/kultur/2012/03/08/%e2%80%9dhen%e2%80%9d-foreslogs-av-sprakforskare-redan-1994-%e2%80%93-i-svd/">http://blog.svd.se/kultur/2012/03/08/%e2%80%9dhen%e2%80%9d-foreslogs-av-sprakforskare-redan-1994-%e2%80%93-i-svd/</a> [2021-12-16]</p>
+
+                  <p>Byrman, Ylva (2012). Hen eller den? Pronomenval med betydelse. <em>Svenska Dagbladet, 28 maj.</em> <a href="http://blog.svd.se/sprak/2012/05/28/hen-eller-den-pronomenval-med-betydelse/">http://blog.svd.se/sprak/2012/05/28/hen-eller-den-pronomenval-med-betydelse/</a> [2021-12-20]</p>
+
+                  <p>Dunås, Rolf (1966). Han eller hon. <em>Upsala Nya Tidning</em>, 30 november.<a href="https://www.diva-portal.org/smash/get/diva2:534766/ATTACHMENT02.pdf">https://www.diva-portal.org/smash/get/diva2:534766/ATTACHMENT02.pdf</a> [2021-12-16]</p>
+
+                  <p>Gustavsson, Anton (2012a). DN förbjuder ”hen”. <em>Sveriges Television</em>, 12 september 2012. <a href="https://www.svt.se/kultur/dn-forbjuder-hen">https://www.svt.se/kultur/dn-forbjuder-hen</a> [2021-12-18]</p>
+
+                  <p>Gustavsson, Anton (2012b). Ordet ”hen” – nu även i hovrätten. <em>Sveriges Television</em>, 13 december. <a href="https://www.svt.se/kultur/ordet-hen-nu-aven-i-hovratten">https://www.svt.se/kultur/ordet-hen-nu-aven-i-hovratten</a> [2021-12-18]</p>
+
+                  <p>Holmberg, Bianca (2017). Hen – hur gick det sen?. <em>Språkbruk</em>, (2). <a href="https://www.sprakbruk.fi/-/hen-hur-gick-det-sen-">https://www.sprakbruk.fi/-/hen-hur-gick-det-sen-</a> [2021-12-17]</p>
+
+                  <p>Koffmar, Linda (2017). Barn vid ”genusneutrala” förskolor har mindre stereotypa attityder. <em>Uppsala universitet</em>, 29 maj. <a href="https://www.uu.se/nyheter/artikel/?id=8840&amp;typ=artikel">https://www.uu.se/nyheter/artikel/?id=8840&amp;typ=artikel</a> [2021-12-22]</p>
+
+                  <p>Magnusson, Örjan (2014). Hen med i Akademins ordlista. <em>Sveriges </em>Television, 29 juli <a href="https://www.svt.se/kultur/hen-med-i-akademins-ordlista">https://www.svt.se/kultur/hen-med-i-akademins-ordlista</a> [2021-12-20]</p>
+
+                  <p>Milles, Karin (2013). Hen i Sverige och i Finland. <em>Språkbruk,</em> (3). <a href="https://www.sprakbruk.fi/-/hen-i-sverige-och-i-finland">https://www.sprakbruk.fi/-/hen-i-sverige-och-i-finland</a> [2021-12-17]</p>
+
+                  <p>Nöjesguidens Redaktion (2012). <em>FAQ: Hen-numret</em>. <a href="https://ng.se/artiklar/faq-hen-numret">https://ng.se/artiklar/faq-hen-numret</a> [2021-12-18]</p>
+
+                  <p>Pérez, Efrén O., Tavits, Margit (2019). <em>Language influences mass opinion toward gender and LGBT equality</em>. (10.1073/pnas.1908156116). USA: National Academy of Sciences. <a href="https://www.pnas.org/content/116/34/16781">https://www.pnas.org/content/116/34/16781</a></p>
+
+                  <p>Prefix.nu (u. å.). <em>Genus</em>. <a href="https://www.prefix.nu/genus.html">https://www.prefix.nu/genus.html</a> [2021-12-15]</p>
+
+                  <p>Reuter, Mikael (1991). Hon, han och honom. <em>Hufvudstadsbladet</em>, 15 november. <a href="https://www.sprakinstitutet.fi/sv/publikationer/sprakspalter/reuters_rutor_1986_2013/1991/hon_han_och_honom">https://www.sprakinstitutet.fi/sv/publikationer/sprakspalter/reuters_rutor_1986_2013/1991/hon_han_och_honom</a> [2016-12-16]</p>
+
+                  <p>SKR 2016/17:10. <em>Makt, mål och myndighet – feministisk politik för en jämställd framtid</em>. Stockholm: Socialdepartementet</p>
+
+                  <p><em>Språket dokumentär</em> (2018). Striden om hen. [Radioprogram]. Sveriges Radio, 25 december. <a href="https://sverigesradio.se/avsnitt/1205636">https://sverigesradio.se/avsnitt/1205636</a> [2021-12-18]</p>
+
+                  <p>Språkrådet (2014). <em>Myndigheternas skrivregler.</em> Stockholm: Norstedts Juridik AB/Fritzes. <a href="https://www.isof.se/download/18.17dda5f1791cdbd2873a99/1620030264840/Mynd-skrivreg2014-1.pdf">https://www.isof.se/download/18.17dda5f1791cdbd2873a99/1620030264840/Mynd-skrivreg2014-1.pdf</a> [2021-12-20]</p>
+
+
+
+                  <p>Svensson, Alf B. (2013). Psykolog: Sluta försöka göra barn könsneutrala. <em>Aftonbladet, 28 januari.</em> <a href="https://www.aftonbladet.se/debatt/a/e1qXG9/psykolog-sluta-forsoka-gora-barn-konsneutrala">https://www.aftonbladet.se/debatt/a/e1qXG9/psykolog-sluta-forsoka-gora-barn-konsneutrala</a> [2021-12-22]</p>
+
+
+                  <p>Svensson, Anders (2012). Miljöpartiet väljer hen. <em>Språktidningen</em>, 25 september. <a href="https://spraktidningen.se/2012/09/miljopartiet-valjer-hen/">https://spraktidningen.se/2012/09/miljopartiet-valjer-hen/</a> [2021-12-18]</p>
+
+
+
+                  <p>Svensson, Anders (2016). Hen allt vanligare under 2015. <em>Språktidningen</em>, 15 mars. <a href="https://spraktidningen.se/2016/03/hen-allt-vanligare-under-2015/">https://spraktidningen.se/2016/03/hen-allt-vanligare-under-2015/</a> [2021-12-20]</p>
+
+
+
+                  <p>Söderling, Trygve (2013). Framtiden för hen. <em>Nya Argus</em>, (4). <a href="http://www.saunalahti.fi/trygvsod/slammer/2013/Framtiden-for-hen.html">http://www.saunalahti.fi/trygvsod/slammer/2013/Framtiden-for-hen.html</a> [2021-12-17]</p>
+
+
+
+                  <p><em>Tendens – kortdokumentärer </em>(2012). Hen – mer än bara ett ord. [Radioprogram]. Sveriges Radio, 29 augusti. <a href="https://sverigesradio.se/artikel/5238161">https://sverigesradio.se/artikel/5238161</a> [2021-12-18]</p>
+                  <p>Tolstav, Karolina (2016). Hyllat och hatat hen fyller 50 år. <em>Upsala Nya </em>Tidning, 30 november. <a href="https://unt.se/nyheter/uppsala/hyllat-och-hatat-hen-fyller-50-ar-4457215.aspx">https://unt.se/nyheter/uppsala/hyllat-och-hatat-hen-fyller-50-ar-4457215.aspx</a> [2021-12-16]</p>
+                  <p>TT (2014). Könsneutrala hen ännu inte neutralt. <em>Sveriges Television</em>, 20 augusti. <a href="https://www.svt.se/kultur/konsneutrala-hen-annu-inte-neutralt">https://www.svt.se/kultur/konsneutrala-hen-annu-inte-neutralt</a> [2021-12-20]</p>
+                  <p>Västerdal, Ida (2012). Då slog klockan för ordens kön. <em>Språktidningen</em>, 25 juni. <a href="https://spraktidningen.se/2012/05/da-slog-klockan-ordens-kon/">https://spraktidningen.se/2012/05/da-slog-klockan-ordens-kon/</a> [2021-12-15]</p>
+                  <p>Åsell, Emelie Mire (2012). Erkännandet av ordet hen en seger för transpersoner. <em>Sveriges Television</em>, 27 mars. <a href="https://www.svt.se/opinion/erkannandet-av-ordet-hen-en-seger-for-transpersoner">https://www.svt.se/opinion/erkannandet-av-ordet-hen-en-seger-for-transpersoner</a> [2021-12-20]</p>
+                  </section>
+                    </div>
+                    </div>
+                  </main>
+
+
+
+<footer class="col-12 col-s-12 footer-distributed">
+  <div class="footer-left">
+  <img class="footericon" src="img/footerImg.png" width="61" height="61"  alt="Icon" >
+      <h3>Min Hemsida</h3>
+      <p class="footer-company-name">© <span id="copyright"></span> Snow Production Studios  |  <a href="integritetspolicy.html">Integritetspolicy</a></p>
+  </div>
+  <div class="footer-center">
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-map-marker"></i>
+            <p><span>Stadstad</span>
+            123 45 Landland, Sweden</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-phone"></i>
+          <p>+46-1234567</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-envelope"></i>
+          <p><a href="mailto:support@placeholder">exempel@minhemsida.com</a></p>
+      </div>
+      <p class="footer-links">
+          <a href="index.html">Hem</a>
+          |
+          <a href="cv.html">CV</a>
+          |
+          <a href="om-mig.html">Om mig</a>
+          |
+          <a href="kontakt.html">Kontakt</a>
+      </p>
+  </div>
+  <div class="footer-right">
+  <div class="footer-translate">[gtranslate] </div>
+  <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked>
+        <label for="theme" class="toggle-label">
+        <img src="img/moon.png" alt="Dark mode" class="toggle-icon">
+        </label>
+      </div>
+      <p class="footer-company-about">
+          <br><span>Om mig</span>
+          En hemsida för information, CV och utförda arbete av mig.</p>
+  </div>
+  </footer>
+  <!-- links the css and javascript files, and adds the wordpress admin header to the web page -->
+
+            <!-- fontawesome css -->
+          <link href="fontawesome_5.15.4/css/fontawesome.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/solid.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/brands.css" rel="stylesheet">
+          <!-- fontawesome javascript -->
+          <script defer src="fontawesome_5.15.4/js/solid.js"></script>
+          <script defer src="fontawesome_5.15.4/js/brands.js"></script>
+          <script defer src="fontawesome_5.15.4/js/fontawesome.js"></script>
+  </body>
+  </html>

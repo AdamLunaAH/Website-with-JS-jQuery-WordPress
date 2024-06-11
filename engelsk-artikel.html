@@ -1,0 +1,464 @@
+
+<!-- main template for a static page -->
+<!DOCTYPE html>
+<!-- header of the wordpress site -->
+<!-- the header includes more that just the code inside the <head> tag, it also includes the navigation bar in the <body> because it an element available on every page. -->
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Infomation om mig, mitt CV och arbeten">
+        <title>Om mig</title>
+
+        <!--css-->
+        <link href="style.css" rel="stylesheet">
+        <link href="css/calculator.css" rel="stylesheet">
+        <link href="css/jquery.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+
+
+
+        <!--javascript-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script defer src="js/script.js"></script>
+        <script defer src="js/calculator.js"></script>
+        <script defer src="js/javascript.js"></script>
+
+
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="faviconit/favicon.ico">
+	      <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
+	      <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="faviconit/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="faviconit/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="faviconit/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="faviconit/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="faviconit/favicon-16.png">
+        <link rel="apple-touch-icon" href="faviconit/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="faviconit/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="faviconit/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="faviconit/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="faviconit/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="faviconit/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="faviconit/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="faviconit/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="faviconit/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
+        <meta name="msapplication-config" content="faviconit/browserconfig.xml">
+      <!-- Wordpress header -->
+            </head>
+      <!-- body that links to the says what light mode is used by default -->
+      <body class="page light">
+      <header class="header">
+                <!--<navbar>-->
+                  <nav class="main-nav">
+                <!-- Logo -->
+                  <div class="logodiv">
+                    <a href="index.html" class="logo">
+
+                    <img src="img/headerImg.png" width="61" height="61" class="logoimg" alt="Home logo icon" >
+                    <p class="logoh1">Hem</p>
+                    </a>
+                  </div>
+                    <!-- Hamburger icon -->
+                        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <!-- Menu -->
+                        <ul class="menu">
+                  <li class="page_item page-item-31"><a href="om-mig.html">Om mig</a></li>
+<li class="page_item page-item-29"><a href="cv.html">CV</a></li>
+<li class="page_item page-item-22"><a href="exempel-webbsida.html">Exempelwebbplats</a></li>
+<li class="page_item page-item-74"><a href="svensk-artikel.html">Svensk artikel</a></li>
+<li class="page_item page-item-69"><a href="engelsk-artikel.html">Engelsk artikel</a></li>
+<li class="page_item page-item-14"><a href="jquery.html">jQuery och Canvas</a></li>
+<li class="page_item page-item-11"><a href="kalkylator.html">Kalkylator</a></li>
+<li class="page_item page-item-36"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                  </nav>
+                </header>
+
+
+                <main lang="en" class="articletext">
+                  <!-- table of content -->
+                  <nav class="section-nav">
+                      <ol>
+                        <li><a class="scrolltable" href="#introduction">1 Introduction</a></li>
+                        <li><a class="scrolltable" href="#purpose">2 Purpose and research questions</a></li>
+                        <li><a class="scrolltable" href="#method">3 Method and material</a></li>
+                        <li><a class="scrolltable" href="#result">4 Result</a>
+                          <ul>
+                            <li class=""><a class="scrolltable" href="#result--1">4.1 How did the second red scare and McCarthyism come about?</a></li>
+                            <li><ul>
+                            <li class=""><a class="scrolltable" href="#result--2">4.1.1 Part One</a></li>
+                            <li class=""><a class="scrolltable" href="#result--3">4.1.2 Part Two</a></li>
+                            <li class=""><a class="scrolltable" href="#result--4">4.1.3 Part Three</a></li>
+                            </ul></li>
+                            <li class=""><a class="scrolltable" href="#result--5">4.2 What was Joseph McCarthy’s aim with McCarthyism?</a></li>
+                            <li class=""><a class="scrolltable" href="#result--6">4.3 How did the Red Scare and McCarthyism change public perception and the political climate?</a></li>
+                            <li class=""><a class="scrolltable" href="#result--7">4.4 What led to the downfall of McCarthyism?</a></li>
+                          </ul>
+                        </li>
+                        <li class=""><a class="scrolltable" href="#conclusion">5 Conclusion</a></li>
+                        <li class=""><a class="scrolltable" href="#references">6 References</a></li>
+                      </ol>
+                    </nav>
+                    <!-- article -->
+                    <div class="col-12 col-s-12">
+                    <h1>The Red Scare and McCarthyism</h1>
+                    <div class="topartimg">
+                    <picture>
+                      <source srcset="img/Joseph_McCarthy.webp" type="image/webp">
+                      <img class="topimg" src="img/Joseph_McCarthy.png" alt="Joseph McCarthy">
+                    </picture>
+                    <p class="imgtext"><small>Joseph McCarthy, Authored by United Press, Library of Congress. Acquired via <a href="https://commons.wikimedia.org/wiki/File:Joseph_McCarthy.jpg" target="_blank">Wikimedia</a> under <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.en" target="_blank">Public Domain Mark 1.0</a>.</small></p>
+                  </div>
+                  <p class="midp">written by</p>
+                  <p class="midp">Adam<br></p>
+                      <section id="introduction">
+                      <h2>1 Introduction</h2>
+                      <p>During the first half of the 20<sup>th</sup> century the rise of the Soviet Union started to concern the political powers in the Western world. During the Russian Revolution in late 1910s and early 1920s political unrest and influence from the Russian socialists would spread to the western countries and it worried the political powers (History.com Editors, 2020). The unrest in the United States of America would during this time later be called The First Red Scare. While the socialist moment would be apparent in US politics it would quickly be suppressed and faded away quickly in just two years using both the law and violence. New laws would be created to prohibit socialist-and labour movement in the United States (<em>Second Red Scare</em>, n.d.).</p>
+
+                      <p>The Red Scare would return in large force after the Second World War with political leaders in the United States being worried about the influence from the Union of Soviet Socialist Republics or USSR (History.com Editors, 2020). This time the ramification would be more pronounced in American society and would rock the political climate for years to come. At the head of all this would a Republican senator from Wisconsin named Joseph McCarthy emerge (Oehser at al., 2021).</p>
+
+                      </section>
+
+                      <section id="purpose">
+
+                      <h2>2 Purpose and research questions</h2>
+
+                      <p>The purpose of the essay is to examinate and analyse how McCarthyism came about and shaped political and societal responses and outlook towards socialism inside the United States during the 1940s and 1950s. The essay is also to examine to see how the response to Joseph McCarthy and McCarthyism appeared so strong to then change and him being censured by the US senate.</p>
+
+                      <p>I have formulated these questions as guidelines for the essay:</p>
+
+                      <ul><li class="point">How did the Second Red Scare and McCarthyism come about?</li><li class="point">What was Joseph McCarthy’s aim with McCarthyism?</li><li class="point">How did the Red Scare and McCarthyism change public perception and the political climate?</li><li class="point">What led to the downfall of McCarthyism?</li></ul>
+                      </section>
+                      <section id="method">
+                      <h2>3 Method and material</h2>
+                      <p>I will with the help of the research questions analyse and explain McCarthyism. Most of the sources from the essay will be secondary sources, but I would say most of the sources are of high reliability. I will use books, articles, research publications and documentaries as sources some of which are mentioned below.</p>
+
+                      <p>To be able to examine and analyse and answer I will use a variety of sources but will for large part use works from the Public Broadcasting Service (PBS) which is a source I would value as highly reliable because PBS in not a private broadcaster and will there for not have in its interest to make money. PBS is instead a public broadcaster similar to the BBC, and because of how the PBS funding work it has more oversight from a large variety of educational institutions and non-profit organisations than private broadcasters.</p>
+
+                      <p>Another source I will use for the essay is the works of American professor Ellen Schrecker. A large part of the works is about McCarthyism, and I would therefore say her work very useful when writing this essay. Her works on both McCarthyism, academic freedom and freedom of speech are highly praised. I would say that her works are a reliable source to use.</p>
+
+                      <p>Another other source I will use are files from the National Archive which would be a primary source. The reliability is a bit different from the other sources because while good, with it being the US National Archive. The information in them can be deceiving with who the person is that wrote it.</p>
+
+                      <p>Britannica Encyclopedia is also a reputable source I will use. I call it reputable because it is an organisation that has existed since 1700s and are used by educational institutions.</p>
+
+                      </section>
+
+
+                      <section id="result">
+
+                      <h2>4 Result</h2>
+
+                      <section id="result--1">
+
+                      <h3>4.1 How did the second red scare and McCarthyism come about?</h3>
+
+                      <p>To conclusively answer this question will divide the question in three parts, The first parts include pre-1950 not including Joseph McCarthy. The second part include McCarthy before the February 9, 1950, Lincoln day speech at the Republican Women's Club of Wheeling, West Virginia. The third part is what happened after his speech.</p>
+
+
+                      <section id="result--2">
+
+                      <h4>4.1.1 Part One:</h4>
+
+                      <p>After the first red scare in the late 1910s the House Un-American Activities Committee also known as HUAC was established in 1938 to officially investigate communist and fascist but the committee would in the early phases be to subpoena people that might or might not have been involved with communism within the United States (History.com Editors, 2019a; National Archives and Records Administration, n.d.a). They would bring many people in front of the committee with many influential people from Hollywood would be brought (The Editors of Encyclopaedia, 2020b). They would after this be disgraced and blacklisted. Proponents for HUAC would be defend the committee by saying that it brought communists to the spotlight and removed them from influence. Opponents of the committee criticised the HUAC by pointing at it being used to removing the peoples first amendment rights and used as a political tool to criticise Franklin D. Roosevelt´s New Deal (<em>American Experience: McCarthy</em>, 2020; Shultz, 2009).</p>
+
+                      <p>After the Second World War the former allies the United States of America and the Union of Soviet Socialist Republic’s relations would deteriorate incredibly rapidly and would lead to the start of the Cold War which would span almost half a century until the fall of the Soviet Union (Oehser at al., 2021). The Chinese Civil War ending with victory for Mao Zedong and the Chinese Communist Party, and the defeat of the Nationalists even with support from the United States (Rawski at al., 2021; The Editors of Encyclopaedia, 2016). The first atomic bomb test by the Soviet Union in 1949 showed the US populace that they would not be the only country with nuclear weapon capabilities (Oehser at al., 2021). The invasion of South Korea by North Korea and starting the Korean war (Millett, 2021). All of this led to an increase in the US populace fear of Soviet and communist influence in other countries and within the US borders and government. People would start to criticise President Harry S. Truman and his administration for his disloyalty to the American people and lax attitude towards communism (Oehser at al., 2021; Thomson, 2009; History.com Editors, 2021c). President Truman’s attitude would more accurately be described as more critical of Soviet Union than his predecessor Franklin D. Roosevelt and having more strong anti-communist opinions and policies (Glass, 2019). To suppress the concerns of being too complicit towards communism President Truman would in 1947 sign Executive Order 9835 also known as “Federal Employee Loyalty Program” or just the “Loyalty Order” (National Archives and Records Administration, n.d.b). The Loyalty Order would allow the Federal Bureau of Investigation to investigate public employees for not being loyal to the United States and would therefore be dismissed from working within the US government. For an employee to be dismissed the FBI would have to find “Reasonable grounds” that the employee would be disloyal. “Reasonable grounds” within this context would include being friends with someone that is a member in a communist organisation (<em>American Experience: McCarthy</em>, 2020). Of the five million people investigated only a few hundred would be fired and thousands would resign, with many forced to resign after being questioned in congressional hearings. Even with many people investigated and forced out of their jobs, not one investigation led to findings of espionage by the employees (National Archives and Records Administration, n.d.b).</p>
+
+                      </section>
+
+
+                      <section id="result--3">
+
+                      <h4>4.1.2 Part Two:</h4>
+
+                      <p>Joseph “Joe” R. McCarthy was born on November 14, 1908, near Appleton, Wisconsin. He would study law and finish his law degree in 1935 (Biography<em>.</em>comEditors, 2014). While he wanted more prestige-full jobs, he would work as an attorney and in 1940 McCarthy was elected to circuit judge in Wisconsin (<em>American Experience: McCarthy</em>, 2020). He still wanted more influence and following and wanted a more influential position, a position in the United States Senate were a position he wanted. But to be able to find support by the people of Wisconsin he needed to become a much more public figure and somehow become a common person people would talk about. While people working within the justice system were exempt from becoming drafted. His friend and fellow judge Urban Van Susteren told him that an effective way for people to support him and show that McCarthy himself is a person for the people and show that he himself would risk his own life for the people, was to enlist in the Marines to show his support for the war effort (<em>American Experience: McCarthy</em>, 2020; The Editors of Encyclopaedia, 2021c). McCarthy’s military position would be Intelligence Briefing Officer in the Pacific Theatre, his task was collecting reports from the pilots in the bomber crews he was assign to (Oshinsky, 2020). His military career would be criticised in multiple ways. One of the things would be that he was the solider with most shoots fired from a plane in the war, but none of the rounds fired were fired in combat (<em>American Experience: McCarthy</em>, 2020; Oshinsky, 2020). He volunteered to fly as a gunner observer. Another of his controversies would be that he claimed that he was injured in combat. While he was injured, it was not in combat but during a victory celebration. Evidence for this was that he did not receive a Purple Heart for being injured by enemy actions or in combat. In 1946 McCarthy won the congressional election and defeated congressman Robert M. La Follette Jr (<em>American Experience: McCarthy</em>, 2020). La Follette was a career politician and had not enlisted and McCarthy used his enlistment to attack La Follette for not joining the war effort even though La Follette was to old for the military at that point with La Follette being 46 years old at that point in time. McCarthy would be given support from an unexpected group when looking at his later political action. The group giving him support was the communist-controlled United Electrical, Radio and Machine Workers, labour union (Oshinsky, 2020). Because the union saw senator La Follette as anti-communist and McCarthy had not yet showed his anti-communist political opinions.</p>
+
+                      <p>Joseph McCarthy would have a quiet and uninfluential senatorial career with his abrasive nature and acceptance of lobbying from companies to support his lavish lifestyle and was seen as a troublemaker and loudmouth by his contemporary colleges (<em>American Experience: McCarthy</em>, 2020; Menand, 2020). McCarthy also wanted to become a liked and known name within the United States public and would do many things to become that person. Angering his voter base and lying would not hinder McCarthy in continuing his lifestyle and increase his influence in and outside of congress. His most influences moments before 1950 would be his vote and support for the anti-communism and union restricting Taft-Hartley Act of 1947, which President Harry S. Truman would veto and congress would then overturn the Presidential veto (<em>American Experience: McCarthy</em>, 2020; Oshinsky, 2020). Labour unions in McCarthy’s home state resented him for this. The other is his support for the commutation of the death penalty sentences given to the Waffen-SS soldiers in massacre of American prisoner of war in Malmedy, Belgium (Tye, 2020). His reason for this could be that his Wisconsin voters large German heritage and his anti-Semitism but contemporary historians and writer have not seen this as the only because reason. With McCarthy not having a particular stronger dislike for the Jewish people, than homosexuals, communists, people of Wall Street or political journalists (Tye, 2020; <em>American Experience: McCarthy</em>, 2020). McCarthy would accuse the US military of using a farce trial and subject the prisoners to abuse and were getting support from anti-war organisations and people in the divided Germany (Tye, 2020). While a subcommittee report criticised the military on using malpractice in the trials it found no evidence of abuse or of wrongful convictions, the military commuted the people all the sentences to deescalate the situation and bowing to public support and get the support of West Germany in the cold war. McCarthy’s scorched earth tactics and usage of conspiracy theories, propaganda and lies in Malmedy Massacre trial can be seen as a trial run of the tactics he used against communism.</p>
+
+                      <p>McCarthys tactics made him isolated in congress and lead to him being given the lowest and least influential committee assignments (<em>American Experience: McCarthy</em>, 2020; History.com Editors, 2019b). In 1950 it was election, and he had a very small chance of becoming re-elected (<em>American Experience: McCarthy</em>, 2020; United States Senate, n.d.a). This lead to him on Lincoln day, February 9 in 1950 being sent to one of the lowest status fund raisers to hold a speech. This speech would take place at the Ohio County Republican Women’s Club, in Wheeling, West Virginia (United States Senate, n.d.c; <em>American Experience: McCarthy</em>, 2020). His bad planning and not preparing his speech led to him having to in short preparation before the speech choose between two different speeches prepared by his subordinates (<em>American Experience: McCarthy</em>, 2020<strong>)</strong>. One speech was about housing for veterans and the other with was a speech about communists within the United States government. With the dinner being of such low status he decides to use the speech about communist and if he received backlash for it, it would not matter because he was not winning the re-election anyway. McCarthy during the speech held up a paper and said he had on the paper two hundred and five names of communists within the US State Department. His speech was reported of in a local paper and is propelled his name in American society overnight (Glass, 2008; Hudson, n.d.a; History.com Editors, 2021d).</p>
+
+                      </section>
+
+
+                      <section id="result--4">
+
+                      <h4>4.1.3 Part Three:</h4>
+
+                      <p>McCarthy did not expect the media and public response he received after the speech. His number change multiple times in his coming speeches, and he received criticism for that but the publics scaredness of communism only supported their opinion of communism as a threat towards American society and way of life (Glass, 2008; <em>American Experience: McCarthy</em>, 2020). In 1950 multiple communist conspiracies was brought to light and only increased the American fear of communism and the Soviet Union. Those were:</p>
+
+                      <ul><li>The conviction of perjury and lying of his association with a communist espionage ring by State Department official Alger Hiss in January (The Editors of Encyclopaedia, 2020a; <em>American Experience: McCarthy</em>, 2020).</li><li>Confession of Claus Fuchs of committing espionage for the Soviet Union and giving them information about the Manhattan Project in January (The Editors of Encyclopaedia, 2021d; <em>Klaus Fuchs</em>, 2019).</li><li>Arrest of Julius Rosenberg and Ethel Rosenberg in August for obtaining and giving information about the Manhattan Project to the Soviet Union (Seven, 2018; Jenkins, 2020).</li></ul>
+
+                      <p>A combination of all of this with encouragement by conservative politicians that referred to progressive reforms as the New Deal, child labour laws and women’s suffrage as communist plots and wanting to repel them started the Second Red Scare. The name of the Second Red Scare, coined by satirical cartoonist Herbert Lawrence Block would be McCarthyism (<em>American Experience: McCarthy</em>, 2020).</p>
+
+                      </section>
+                      </section>
+
+                      <section id="result--5">
+
+                      <h3>4.2 What was Joseph McCarthy’s aim with McCarthyism?</h3>
+
+                      <p>Joseph McCarthy’s aim and purpose I touched on in the above question but will expand on it here.</p>
+
+                      <p>McCarthy’s purpose was not just to find and expel communists within the United States State department for he did not have a specific dislike for communist or the Soviet Union but a more general dislike of many different groups of people and professions (Tye, 2020). With some of them being communists, political and investigational journalists, Washington insiders and people critical of him and his actions. The main reason for McCarthy’s action was a self-serving one where he wanted to enrich himself to support and continue his extravagate lifestyle of expensive drinking, smoking, gambling, and other expansive hobbies (<em>American Experience: McCarthy</em>, 2020). One of his ways of reaching a point of wealth would be given lobbying loan and other financial support from companies and business owner for bringing legislation to the senate that was supportive of the businesses. This would be successful for him but his pro-business politics decreased his support from voters, and his ways of becoming elected to the senate in the first place by using his military service to get the support dwindled in the time from his encumberment and his re-election (Menand, 2020; <em>American Experience: McCarthy</em>, 2020). When coming closer to his re-election McCarthy was becoming worried of not being able to support his extravagant lifestyle. He therefore started to express more and more divisive opinions and politics to try and become a more known name. To be giving more support from people and organisations, and financial support through speaking roles at diners, political and corporate events. To be able to continue his way of life. Lying and deceiving people would not stop him from reaching his goal. This cumulated in him expressing divisive political actions with the first major one being his support for commutation of the charges given to the perpetrators of the Malmedy Massacre (Tye, 2020). While this did increase the support of McCarthy in parts of the United States with large population of German heritage it did not effect a substantially enough population, and his name quickly fell into obscurity again. McCarthy as a last-ditch effort gave the speech about communists within the US government, and it did massively increase his support and influence (<em>American Experience: McCarthy</em>, 2020; Glass, 2008).</p>
+
+                      </section>
+
+
+                      <section id="result--6">
+                      <h3><a>4.3 How did the Red Scare and McCarthyism change public perception and the political climate?</a></h3>
+
+                      <p>When the American public saw in speeches by Joe McCarthy in 1950 the arrest and charge of communist within the US government and government project reinforceed that it did exist communists’ “Reds” within the government. It led to a situation where the only people being trusted to not be communists were people accusing other people of being Reds (Hudson, n.d.a; <em>American Experience: McCarthy</em>, 2020). The main man they trusted to expose those Reds were the man saying he knew who those Reds were, Joseph “Joe” McCarthy.</p>
+
+                      <p>The amount of names of Reds within the States Department on the list McCarthy said he had changes multiple time from 205 to 57 to 81 to other numbers but he never published a concrete list of names except a few names that was already public and included people not within the State Department, already charge with crimes against the US, or not even communists (Hudson, n.d.a; <em>American Experience: McCarthy</em>, 2020; United States Senate, n.d.a). Even with this the publics anti-communist sentiments still believed McCarthy that communism had infiltrated the State and was a large threat to the United States. McCarthy started to be pressured by his congressional colleagues and from the presidential cabinet to show some name of a person that could be investigated (<em>American Experience: McCarthy</em>, 2020). Because he did not have any name of any person McCarthy picked a name and lied of the persons connection to the convicted Alger Hiss. The person had no connections to communism but was left leaning and he used that to interrogate the person in a public questioning in congress. The person he had chosen was Owen Lattimore (<em>American Experience: McCarthy</em>, 2020; The Editors of Encyclopaedia, 2021e). Owen Lattimore was a scholar at Johns Hopkins University with interest in China and had during World War 2 been President Roosevelt’s representative to the then Chinese National government (History.com Editors, 2021b; <em>American Experience: McCarthy</em>, 2020). Lattimore criticism of the National Chinese government and his connection to the Roosevelt cabinet had already made him criticised of being left leaning by Republican. This made Lattimore an easy target to be used by McCarthy. Lattimore was charged with perjury. This destroyed Lattimore reputation and even after the clearing of all charges for lack of evidence, it made him the first victim of McCarthy (<em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <p>McCarthy and other anti-communist with the help of the low evidence requirement in the loyalty act and the Alien Registration Act’s usefulness in the ways it removed peoples constitutional right to the first, fifth and fourteenth amendment’s protections of free speech, political protections, and rights to fair and non-self-incriminating trials (National Archives and Records Administration, n.d.b; Smentkowski, 2020; Volokh, 2020). With this they subpoenaed people they suspected of being communists or communist sympathisers (<em>American Experience: McCarthy</em>, 2020). McCarthy accused many people with the help of this and they had to testify before congress, this was a direct breach of the persons fifth amendment right. While there were politicians critical of this, with the US Supreme Court’s decision to uphold the Smith Act it silenced McCarthys critics and would let him continue his hunt for Reds (The Editors of Encyclopaedia, 2019; <em>American Experience: McCarthy</em>, 2020; The Editors of Encyclopaedia, 2021a).</p>
+
+                      <p>McCarthy’s influence would increase even more after the congressional election of 1952 for of his then seniority within congress gave him the chairman position of the Committee on Government Operations of the Senate and a position in the Permanent Subcommittee on Investigation (The Editors of Encyclopaedia, 2021c; Achter, 2021; <em>American Experience: McCarthy</em>, 2020). This would give him access to investigate and subpoena many more much faster. His constant name in press because of the investigations and its public hearing of suspected communists gave the public a constant impression of McCarthy (<em>American Experience: McCarthy</em>, 2020). The questions he would ask in the senate hearing was question of their status within the American Communist Party, if they had expressed leftist ideas, who other communist they knew. Many of the people he interrogated was highly educated people and knew how to answer his questions with invoking their constitutional right that if the answered they would incriminate themselves (<em>American Experience: McCarthy</em>, 2020). McCarthy did not care of this and even if they did not answer, it gave him ammunition to say because the accused did not answer they were communists. The public was given this particular impression.</p>
+
+                      <p>With how many congressional hearings McCarthy held and with his charismatic appearances towards the public, had given the impression that the Reds had infiltrated the State Department, government department, the press, and academic institutions. McCarthy had not brought forward a single plausible case or conviction towards any person and the public did not care because he still brought forward name and therefore someone must be guilty (Achter, 2021).</p>
+
+                      <p>Members of the press, government employees, authors and academic all became afraid of McCarthy and his hearings and if someone criticised him, they would be his next target (<em>American Experience: McCarthy</em>, 2020). If they were unfortunate victims of McCarthy, they knew they would be disgraced, lose their jobs and reputation. It threated and suppressed any thought of communism and leftism within the press, government employees, authors and academic and he needed new targets. This new target, the US military was to become his downfall (Oehser at al., 2021; Menand, 2020; <em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <div class="col-12 col-s-12">
+                    <div class="secartimg">
+                    <div class="row">
+                      <div class="secimgdiv">
+                      <picture>
+                      <source srcset="img/Owen-Lattimore.webp" type="image/webp">
+                      <img class="secimg" src="img/Owen-Lattimore.jpg" alt="Owen Lattimore">
+                    </picture>
+                    <p class="imgtext"><small>Lattimore, Owen. Published by <a href="https://www.britannica.com/biography/Owen-Lattimore#/media/1/332110/96721" target="_blank">Encyclopædia Britannica, Inc</a>.</small></p>
+                      </div>
+                      <div class="secimgdiv">
+                    <picture>
+                      <source srcset="img/Portrait_of_FDR.webp" type="image/webp">
+                      <img class="secimg" src="img/Portrait_of_FDR.jpg" alt="Franklin D. Roosevelt">
+                    </picture>
+                    <p class="imgtext"><small>Portrait of Franklin D. Roosevelt, Authored by FDR Presidential Library & Museum. Acquired via <a href="https://commons.wikimedia.org/wiki/File:Cropped_Portrait_of_FDR.jpg" target="_blank">Wikimedia</a> under Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC BY 2.0</a>.</small></p>
+                      </div>
+                    </div>
+                  </div>
+                      </div>
+                      </section>
+
+
+                      <section id="result--7">
+                      <h3>4.4 What led to the downfall of McCarthyism?</h3>
+
+                      <p>During the period of McCarthyism President Harry S. Truman’s cabinet change in 1952 to President Dwight “Ike” Eisenhower. While Truman had criticised Senator McCarthy it had no effect on the senator’s reputation and his influence (Oehser at al., 2021; Hudson, n.d.b). President Eisenhower did not publicly criticise McCarthy and had the opinion that if he named McCarthy by name, it would elevate McCarthy within politics and the public (<em>American Experience: McCarthy</em>, 2020). Eisenhower saw McCarthy as a threat to both his own presidency but also a threat to the United States as a nation (Greenspan, 2020; <em>McCarthyism and the Red Scare</em>, n.d.).</p>
+
+                      <p>Eisenhower was a very popular figure, both for his presidency of stabilising the Korean conflict, decreasing the threat of the Soviet Union, and being general of the D-Day invasion (<em>McCarthyism and the Red Scare</em>, n.d.; <em>American Experience: McCarthy</em>, 2020). When Senator McCarthy accused the US military and the U.S. Army in particular, Eisenhower’s own department of harbour communists. Eisenhower directly criticised and accused McCarthy of using lies, deception and illegal ways to conduct his subpoenas. The US public did not blindly trust McCarthy in his accusations and started to distrust the Senator. When after the respected television reporter Edward R. Murrow aired an investigation on Senator McCarthy and the senator’s use of dishonest tactics it only accelerated his road to disgrace (The Editors of Encyclopaedia, 2021b; <em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <p>To rescue his reputation McCarthy singled out a single person within the army accusing the person to be a communist and using corruption to advance his rank (<em>American Experience: McCarthy</em>, 2020). This person would be U.S Army dentist Major Irving Peress at the Army Signal Corps Laboratories at Fort Monmouth, New Jersey (Hudson, n.d.b). The reason for single Major Peress out was his promotion to major and his avoidance of answer the question on his reassignment form if he was a member of the United States Communist Party and instead invoking the fifth amendment. Major Peress would be summoned before congress by McCarthy, and the major would invoke his fifth amendment rights multiple times during the hearing (Hudson, n.d.b; <em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <p>The army heavily contested the charges and said that even though Major Peress declined to answer the questions, Major Peress actions within the army showed him as a very patriotic man towards the US (<em>McCarthyism and the Red Scare</em>, n.d.; <em>American Experience: McCarthy</em>, 2020). The promotion to major the army disputed by affirming it as a normal thing that happened, for it was an automated promotion for Major Peress long service in the army and that McCarthy should know that for his own military service (<em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <p>All of this ended with a three month long televised hearing in congress in 1954 (History.com Editors, 2021a; United States Senate, n.d.b). In one of the last hearings after the army council had disputed and proved that McCarthy used improper procedures and lies in his investigations and hearings (History.com Editors, 2018; <em>McCarthyism and the Red Scare</em>, n.d.; <em>American Experience: McCarthy</em>, 2020). McCarthy singled out Fred Fisher, a lawyer within Army council Joseph Welch’s law office for being associated with a communist organisation at Harvard Law School (<em>American Experience: McCarthy</em>, 2020; United States Senate, n.d.b). Welch would refute this and even give support for Fisher. McCarthy tried to question Welch but was repeatedly interrupted by Welch and ended with Welch saying: <em>Little did I dream you could be so reckless and so cruel as to do an injury to that lad. It is true he is still with Hale and Dorr. It is true that he will continue to be with Hale and Dorr. It is, I regret to say, equally true that I fear he shall always bear a scar needlessly inflicted by you </em>(United States Senate, n.d.b; <em>American Experience: McCarthy</em>, 2020)<em>.</em></p>
+
+                      <p>McCarthy tried to attack Welch again but was again interrupted by Welch who said: <em>Senator, may we not drop this? </em>(…)<em> Let us not assassinate this lad further, Senator. You've done enough. Have you no sense of decency, sir? At long last, have you left no sense of decency?</em></p>
+
+                      <p>At this moment Senator Joseph McCarthy’s reputation was put into question and his support from the US public instantaneously flipped (<em>McCarthyism and the Red Scare</em>, n.d.; <em>American Experience: McCarthy</em>, 2020; United States Senate, n.d.b).</p>
+
+                      <p>McCarthy would be investigated by congress and found to not be exercising discipline for himself or his staff and was not given any formal penalties for his action until December of 1952 (<em>American Experience: McCarthy</em>, 2020). He would then be censured in congress (United States Senate, n.d.d; <em>American Experience: McCarthy</em>, 2020).</p>
+
+                      <div class="col-12 col-s-12">
+                    <div class="secartimg">
+                    <div class="row">
+                      <div class="secimgdiv">
+                      <picture>
+                      <source srcset="img/Photograph_of_Dwight_D._Eisenhower.webp" type="image/webp">
+                      <img class="secimg" src="img/PhotographofDwightDEisenhower.jpg" alt="Dwight D. Eisenhower">
+                    </picture>
+                    <p class="imgtext"><small>Photograph of Dwight D. Eisenhower. Authored by U.S. National Archives and Records Administration. Acquired via <a href="https://commons.wikimedia.org/wiki/File:Photograph_of_Dwight_D._Eisenhower_-_NARA_-_518138.jpg" target="_blank">Wikimedia</a> under <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.en" target="_blank">Public Domain Mark 1.0</a>.</small>
+                      </div>
+                      <div class="secimgdiv">
+                    <picture>
+                      <source srcset="img/Welch-McCarthy-Hearings.webp" type="image/webp">
+                      <img class="secimg" src="Welch-McCarthy-Hearings.jpg" alt="Welch-McCarthy Hearings">
+                    </picture>
+                    <p class="imgtext"><small>Welch-McCarthy-Hearings, Authored by United States Senate. Acquired via <a href="https://commons.wikimedia.org/wiki/File:Welch-McCarthy-Hearings.jpg" target="_blank">Wikimedia</a> under <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.en" target="_blank">Public Domain Mark 1.0</a>.</small>
+                      </div>
+                    </div>
+                  </div>
+                      </div>
+                      </section>
+                      </section>
+
+
+                      <section id="conclusion">
+
+                      <h2>5 Conclusion</h2>
+
+                      <p>Conclusions that can be drawn of how Joseph McCarthy and McCarthyism came about in a combination of multiple reasons. With the combination of them it started the Second Red Scare and McCarthyism and Joseph McCarthy’s propulsion to be one of the most influential and powerful people in the United States in the early 1950.</p>
+
+                      <p>The main reasons would be the US peoples increased mistrust of communists and the Soviet Union, and that those groups had infiltrated American society and government. While there had been people that had infiltrated the government and spying and giving information to the Soviet Union. Some of the ways the US government used to find, suppress, and expel communists can be seen as an overstepping of the people’s rights.</p>
+
+                      <p>Joseph McCarthys road to enrich himself and using lies and deception was unethical. But of his ways of being seen as a charismatic character and in his ways giving support of the Reds being a threat towards the United States the people did not care if he no supporting evidence of his accusations. Nothing stopped McCarthy from his ways and if anyone stood up against him McCarthy then accused them and, they would become untrustworthy instead.</p>
+
+                      <p>These reasons would be the main ones to the beginning of McCarthyism and how it did not stop him from continuing and increasing his support. It majorly decreased the amount of people critical of the government from speaking for if they did speak up, they could be disgraced, fired from their jobs, or even arrested and put in prison by the constitutional breaching investigations the US government and McCarthy used.</p>
+
+                      <p>McCarthy’s continued hunt and accusations for communists would become his downfall when he decided to go after communists within the US Army. The army had a strong connection to President Eisenhower for he had been the Supreme Commander of the Army in Europe in World War 2 and being a highly trusted by the American people. McCarthy’s accusations were not trusted by the people because he did not have substantial evidence of communist infiltration. Joseph McCarthys full downfall to being disgraced was when he in the hearings of communist infiltration in the army directly accusing the Army council of communist infiltration. The army council did then directly attack McCarthy and accusing him of dishonesty, and this flipped the public support McCarthy had. The government did finally investigate McCarthy and his antics and found him misusing his hearing to further his own goals. McCarthy fell into obscurity and McCarthyism had ended.</p>
+
+                      </section>
+
+                      <section id="references">
+
+                      <h2>6 References</h2>
+
+                      <p>Achter, Paul J. (2021) <em>McCarthyism.</em> [Online]. Available from: <a href="https://www.britannica.com/topic/McCarthyism">https://www.britannica.com/topic/McCarthyism</a> [Accessed 10 September 2021]</p>
+
+                      <p><em>American Experience: McCarthy</em>. (2020) [Online]. Directed by Sharon Grimberg. USA: WGBH-TV, PBS. Available from: <a href="https://www.pbs.org/video/mccarthy-9wui76/">https://www.pbs.org/video/mccarthy-9wui76/</a> [Accessed 12 September 2021] Write comment!!!!!</p>
+
+                      <p>Biography<em>.</em>comEditors (2014) <em>Joseph McCarthy</em>. [Online]. Available from: <a href="https://www.biography.com/political-figure/joseph-mccarthy">https://www.biography.com/political-figure/joseph-mccarthy</a> [Accessed 9 September]</p>
+
+                      <p>Glass, Andrew (2008) <em>McCarthy targets 'communists' in government Feb. 9, 1950</em>. [Online]. Politico. Available from: <a href="https://www.politico.com/story/2008/02/mccarthy-targets-communists-in-government-feb-9-1950-008369">https://www.politico.com/story/2008/02/mccarthy-targets-communists-in-government-feb-9-1950-008369</a> [Accessed 14 September 2021]</p>
+
+                      <p>Glass, Andrew (2019) <em>Truman orders loyalty checks of federal employees</em>, March 21, 1947. [Online]. Politico. Available from: <a href="https://www.politico.com/story/2019/03/21/truman-loyalty-checks-1947-1225805">https://www.politico.com/story/2019/03/21/truman-loyalty-checks-1947-1225805</a> [Accessed 14 September 2021]</p>
+
+                      <p>Greenspan, Jesse (2020) <em>How Eisenhower Secretly Pushed Back Against McCarthyism.</em> [Online]. Available from: <a href="https://www.history.com/news/dwight-eisenhower-joseph-mccarthy-red-scare">https://www.history.com/news/dwight-eisenhower-joseph-mccarthy-red-scare</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2018) <em>Army-McCarthy Hearings.</em> [Online]. Available from:&nbsp; <a href="https://www.history.com/topics/cold-war/army-mccarthy-hearings">https://www.history.com/topics/cold-war/army-mccarthy-hearings</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2019a) <em>HUAC.</em> [Online]. Available from:&nbsp; <a href="https://www.history.com/topics/cold-war/huac">https://www.history.com/topics/cold-war/huac</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2019b<em>) Joseph McCarthy.</em> [Online]. Available from:&nbsp; <a href="https://www.history.com/topics/cold-war/joseph-mccarthy">https://www.history.com/topics/cold-war/joseph-mccarthy</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2021a) <em>Joseph McCarthy begins hearings investigating U.S. Army.</em> [Online]. Available from: <a href="https://www.history.com/this-day-in-history/mccarthy-army-hearings-begin">https://www.history.com/this-day-in-history/mccarthy-army-hearings-begin</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2021b) <em>Joseph McCarthy charges that Owen Lattimore is a Soviet spy.</em> [Online]. Available from: <a href="https://www.history.com/this-day-in-history/mccarthy-charges-that-owen-lattimore-is-a-soviet-spy">https://www.history.com/this-day-in-history/mccarthy-charges-that-owen-lattimore-is-a-soviet-spy</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2021c<em>) President Truman orders loyalty checks of federal employees.</em> [Online]. Available from: <a href="https://www.history.com/this-day-in-history/truman-orders-loyalty-checks-of-federal-employees">https://www.history.com/this-day-in-history/truman-orders-loyalty-checks-of-federal-employees</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2020) <em>Red Scare.</em> [Online]. Available from:&nbsp; <a href="https://www.history.com/topics/cold-war/red-scare">https://www.history.com/topics/cold-war/red-scare</a> [Accessed 13 September 2021]</p>
+
+                      <p>History.com Editors (2021d) <em>Senator McCarthy says communists are in State Department</em>. [Online]. Available from: <a href="https://www.history.com/this-day-in-history/mccarthy-says-communists-are-in-state-department">https://www.history.com/this-day-in-history/mccarthy-says-communists-are-in-state-department</a> [Accessed 13 September 2021]</p>
+
+                      <p>Hudson, Myles (n. d.) <em>Did Joseph McCarthy cause the Red Scare of the 1950s?.</em> [Online]. Available from: <a href="https://www.britannica.com/story/did-joseph-mccarthy-cause-the-red-scare-of-the-1950s">https://www.britannica.com/story/did-joseph-mccarthy-cause-the-red-scare-of-the-1950s</a> [Accessed 10 September 2021]</p>
+
+                      <p>Hudson, Myles (n. d.) <em>Why did Joseph McCarthy’s influence decline?. </em>[Online]. Available from: <a href="https://www.britannica.com/story/why-did-joseph-mccarthys-influence-decline">https://www.britannica.com/story/why-did-joseph-mccarthys-influence-decline</a> [Accessed 10 September 2021]</p>
+
+                      <p>Jenkins, J. Philip (2020) <em>Julius Rosenberg and Ethel Rosenberg.</em> [Online]. Available from: <a href="https://www.britannica.com/biography/Julius-Rosenberg-and-Ethel-Rosenberg">https://www.britannica.com/biography/Julius-Rosenberg-and-Ethel-Rosenberg</a> [Accessed 10 September 2021]</p>
+
+                      <p><em>Klaus Fuchs</em>. (2019) [Online]. Available from: <a href="https://www.atomicheritage.org/profile/klaus-fuchs">https://www.atomicheritage.org/profile/klaus-fuchs</a> [Accessed 9 September 2021]</p>
+
+                      <p><em>McCarthyism and the Red Scare</em> (n. d.). [Online]. University of Virginia Miller Center. Available from: <a href="https://millercenter.org/the-presidency/educational-resources/age-of-eisenhower/mcarthyism-red-scare">https://millercenter.org/the-presidency/educational-resources/age-of-eisenhower/mcarthyism-red-scare</a> [Accessed 13 September 2021]</p>
+
+                      <p>Menand, Louis (2020) <em>Joseph McCarthy and the Force of Political Falsehoods</em> [Online]. The New Yorker. Available from: <a href="https://www.newyorker.com/magazine/2020/08/03/joseph-mccarthy-and-the-force-of-political-falsehoods">https://www.newyorker.com/magazine/2020/08/03/joseph-mccarthy-and-the-force-of-political-falsehoods</a> [Accessed 14 September 2021]</p>
+
+                      <p>Millett, Allan R. (2021) <em>Korean War.</em> [Online]. Available from: <a href="https://www.britannica.com/event/Korean-War">https://www.britannica.com/event/Korean-War</a> [Accessed 10 September 2021]</p>
+
+                      <p>National Archives and Records Administration (n. d.a) <em>House Un-American Activities Committee</em>. United States: Harry S. Truman Presidential Library and Museum<strong>. </strong>Available from: <em>&nbsp;</em><a href="https://www.trumanlibrary.gov/education/presidential-inquiries/house-un-american-activities-committee">https://www.trumanlibrary.gov/education/presidential-inquiries/house-un-american-activities-committee</a> [Accessed 11 September 2021]</p>
+
+                      <p>National Archives and Records Administration (n. d.b) <em>Truman’s Loyalty Program</em>. United States: Harry S. Truman Presidential Library and Museum<strong>. </strong>Available from:<a href="https://www.trumanlibrary.gov/education/presidential-inquiries/trumans-loyalty-program">https://www.trumanlibrary.gov/education/presidential-inquiries/trumans-loyalty-program</a> [Accessed 11 September 2021]</p>
+
+                      <p>Oehser, Paul H., at al (2021) <em>United States – The Red Scare</em>. [Online]. Available from<a href="https://www.britannica.com/place/United-States/The-Red-Scare">https://www.britannica.com/place/United-States/The-Red-Scare</a> [Accessed 10 September 2021]</p>
+
+                      <p>Oshinsky, David M. (2020) <em>Fact from Fiction: Joseph McCarthy the Tail Gunner</em>. [Online]. Available from: <a href="https://www.historynet.com/fact-from-fiction-joseph-mccarthy-the-tail-gunner.htm">https://www.historynet.com/fact-from-fiction-joseph-mccarthy-the-tail-gunner.htm</a> [Accessed 13 September 2021]</p>
+
+                      <p>Rawski, Evelyn S., at al (2021) <em>China – A land revolution</em>. [Online]. Available from: <a href="https://www.britannica.com/place/China/A-land-revolution">https://www.britannica.com/place/China/A-land-revolution</a> [Accessed 10 September 2021]</p>
+
+                      <p><em>Second Red Scare</em> (n. d.). [Online]. Available from: <a href="https://ohiohistorycentral.org/w/Second_Red_Scare">https://ohiohistorycentral.org/w/Second_Red_Scare</a> [Accessed 10 September 2021]</p>
+
+                      <p>Seven, John (2018) Why Were the <em>Rosenbergs Executed?.</em> [Online]. Available from: <a href="https://www.history.com/news/rosenbergs-executed-spies-cold-war">https://www.history.com/news/rosenbergs-executed-spies-cold-war</a> [Accessed 13 September 2021]</p>
+
+                      <p>Shultz, David (2009) <em>House Un-American Activities Committee.</em> [Online]. The First Amendment Encyclopedia, Middle Tennessee State University. Available from: <a href="https://www.mtsu.edu/first-amendment/article/815/house-un-american-activities-committee">https://www.mtsu.edu/first-amendment/article/815/house-un-american-activities-committee</a> [Accessed 13 September 2021]</p>
+
+                      <p>Smentkowski, Brian P. (2020) <em>Fifth Amendment.</em> [Online]. Available from: <a href="https://www.britannica.com/topic/Fifth-Amendment">https://www.britannica.com/topic/Fifth-Amendment</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2020a) <em>Alger Hiss</em>. [Online]. Available from: <a href="https://www.britannica.com/biography/Alger-Hiss">https://www.britannica.com/biography/Alger-Hiss</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2016) <em>Chinese Communist Party</em>. [Online]. Available from: <a href="https://www.britannica.com/topic/Chinese-Communist-Party">https://www.britannica.com/topic/Chinese-Communist-Party</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2021a) <em>Dennis v. United States. </em>[Online]. Available from: <a href="https://www.britannica.com/event/Dennis-v-United-States">https://www.britannica.com/event/Dennis-v-United-States</a> [Accessed 10 September]</p>
+
+                      <p>The Editors of Encyclopaedia (2021b) <em>Edward R. Murrow. </em>[Online]. Available from: <a href="https://www.britannica.com/biography/Edward-R-Murrow">https://www.britannica.com/biography/Edward-R-Murrow</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2020b) <em>House Un-American Activities Committee.</em> [Online]. Available from: <a href="https://www.britannica.com/topic/House-Un-American-Activities-Committee">https://www.britannica.com/topic/House-Un-American-Activities-Committee</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2021c) <em>Joseph McCarthy</em>. [Online]. Available from: <a href="https://www.britannica.com/biography/Joseph-McCarthy">https://www.britannica.com/biography/Joseph-McCarthy</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2021d) <em>Klaus Fuchs</em>. [Online]. Available from: <a href="https://www.britannica.com/biography/Klaus-Fuchs">https://www.britannica.com/biography/Klaus-Fuchs</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2021e) <em>Owen Lattimore</em>. [Online]. Available From: <a href="https://www.britannica.com/biography/Owen-Lattimore">https://www.britannica.com/biography/Owen-Lattimore</a> [Accessed 10 September 2021]</p>
+
+                      <p>The Editors of Encyclopaedia (2019) <em>Smith Act</em>. [Online]. Available from: <a href="https://www.britannica.com/event/Smith-Act">https://www.britannica.com/event/Smith-Act</a> [Accessed 10 September 2021]</p>
+
+                      <p>Thomson, Alec (2009) <em>Smith Act of 1940 (1940).</em> [Online]. The First Amendment Encyclopedia, Middle Tennessee State University. Available from: <a href="https://www.mtsu.edu/first-amendment/article/1048/smith-act-of-1940">https://www.mtsu.edu/first-amendment/article/1048/smith-act-of-1940</a> [Accessed 13 September 2021]</p>
+
+                      <p>Tye, Larry (2020) <em>When Senator Joe McCarthy Defended Nazis.</em> [Online]. Available from:<a href="https://www.smithsonianmag.com/history/senator-mccarthys-nazi-problem-180975174/">https://www.smithsonianmag.com/history/senator-mccarthys-nazi-problem-180975174/</a> [Accessed 12 September 2021]</p>
+
+                      <p>United States Senate (n. d.a) <em>"Communists in Government Service," McCarthy Says.</em> United States: United States Senate. Available from: <a href="https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/communists-in-government-service.htm">https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/communists-in-government-service.htm</a> [Accessed 11 September 2021]</p>
+
+                      <p>United States Senate (n. d.b) <em>"Have You No Sense of Decency?"</em>. United States: United States Senate. Available from: <a href="https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/have-you-no-sense-of-decency.htm">https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/have-you-no-sense-of-decency.htm</a> [Accessed 11 September 2021]</p>
+
+                      <p>United States Senate (n. b.c) <em>Joseph R. McCarthy: A Featured Biography. </em>United States: United States Senate. Available from: <a href="https://www.senate.gov/senators/FeaturedBios/Featured_Bio_McCarthy.htm">https://www.senate.gov/senators/FeaturedBios/Featured_Bio_McCarthy.htm</a> [Accessed 11 September 2021]</p>
+
+                      <p>United States Senate (n. d.d) <em>The Censure Case of Joseph McCarthy of Wisconsin (1954</em>). United States: United States Senate. Available from: <a href="https://www.senate.gov/about/powers-procedures/censure/133Joseph_McCarthy.htm">https://www.senate.gov/about/powers-procedures/censure/133Joseph_McCarthy.htm</a> [Accessed 11 September 2021]</p>
+
+                      <p>Volokh, Eugene (2020) <em>First Amendment</em>. [Online]. Available from: <a href="https://www.britannica.com/topic/First-Amendment">https://www.britannica.com/topic/First-Amendment</a> [Accessed 10 September 2021]</p>
+                      </section>
+                    </div>
+
+                  </main>
+
+
+
+<footer class="col-12 col-s-12 footer-distributed">
+  <div class="footer-left">
+  <img class="footericon" src="img/footerImg.png" width="61" height="61"  alt="Icon" >
+      <h3>Min Hemsida</h3>
+      <p class="footer-company-name">© <span id="copyright"></span> Snow Production Studios  |  <a href="integritetspolicy.html">Integritetspolicy</a></p>
+  </div>
+  <div class="footer-center">
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-map-marker"></i>
+            <p><span>Stadstad</span>
+            123 45 Landland, Sweden</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-phone"></i>
+          <p>+46-1234567</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-envelope"></i>
+          <p><a href="mailto:support@placeholder">exempel@minhemsida.com</a></p>
+      </div>
+      <p class="footer-links">
+          <a href="index.html">Hem</a>
+          |
+          <a href="cv.html">CV</a>
+          |
+          <a href="om-mig.html">Om mig</a>
+          |
+          <a href="kontakt.html">Kontakt</a>
+      </p>
+  </div>
+  <div class="footer-right">
+  <div class="footer-translate">[gtranslate] </div>
+  <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked>
+        <label for="theme" class="toggle-label">
+        <img src="img/moon.png" alt="Dark mode" class="toggle-icon">
+        </label>
+      </div>
+      <p class="footer-company-about">
+          <br><span>Om mig</span>
+          En hemsida för information, CV och utförda arbete av mig.</p>
+  </div>
+  </footer>
+  <!-- links the css and javascript files, and adds the wordpress admin header to the web page -->
+
+            <!-- fontawesome css -->
+          <link href="fontawesome_5.15.4/css/fontawesome.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/solid.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/brands.css" rel="stylesheet">
+          <!-- fontawesome javascript -->
+          <script defer src="fontawesome_5.15.4/js/solid.js"></script>
+          <script defer src="fontawesome_5.15.4/js/brands.js"></script>
+          <script defer src="fontawesome_5.15.4/js/fontawesome.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,246 @@
+
+<!-- main template for a static page -->
+<!DOCTYPE html>
+<!-- header of the wordpress site -->
+<!-- the header includes more that just the code inside the <head> tag, it also includes the navigation bar in the <body> because it an element available on every page. -->
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Infomation om mig, mitt CV och arbeten">
+        <title>Om mig</title>
+
+        <!--css-->
+        <link href="style.css" rel="stylesheet">
+        <link href="css/calculator.css" rel="stylesheet">
+        <link href="css/jquery.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+
+
+
+        <!--javascript-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script defer src="js/script.js"></script>
+        <script defer src="js/calculator.js"></script>
+        <script defer src="js/javascript.js"></script>
+
+
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="faviconit/favicon.ico">
+	      <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico">
+	      <link rel="icon" type="image/png" sizes="196x196" href="faviconit/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="faviconit/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="faviconit/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="faviconit/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="faviconit/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="faviconit/favicon-16.png">
+        <link rel="apple-touch-icon" href="faviconit/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="faviconit/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="faviconit/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="faviconit/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="faviconit/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="faviconit/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="faviconit/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="faviconit/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="faviconit/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="faviconit/favicon-144.png">
+        <meta name="msapplication-config" content="faviconit/browserconfig.xml">
+      <!-- Wordpress header -->
+            </head>
+      <!-- body that links to the says what light mode is used by default -->
+      <body class="page light">
+      <header class="header">
+                <!--<navbar>-->
+                  <nav class="main-nav">
+                <!-- Logo -->
+                  <div class="logodiv">
+                    <a href="index.html" class="logo">
+
+                    <img src="img/headerImg.png" width="61" height="61" class="logoimg" alt="Home logo icon" >
+                    <p class="logoh1">Hem</p>
+                    </a>
+                  </div>
+                    <!-- Hamburger icon -->
+                        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    <!-- Menu -->
+                        <ul class="menu">
+                  <li class="page_item page-item-31"><a href="om-mig.html">Om mig</a></li>
+<li class="page_item page-item-29"><a href="cv.html">CV</a></li>
+<li class="page_item page-item-22"><a href="exempel-webbsida.html">Exempelwebbplats</a></li>
+<li class="page_item page-item-74"><a href="svensk-artikel.html">Svensk artikel</a></li>
+<li class="page_item page-item-69"><a href="engelsk-artikel.html">Engelsk artikel</a></li>
+<li class="page_item page-item-14"><a href="jquery.html">jQuery och Canvas</a></li>
+<li class="page_item page-item-11"><a href="kalkylator.html">Kalkylator</a></li>
+<li class="page_item page-item-36"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                  </nav>
+                </header>
+
+
+                <main>
+                  <!-- a simple page template for the wordpress page creator/editor -->
+                      <div class="col-1 col-s-1"></div>
+                      <div class="col-10 col-s-10">
+                        <article>
+
+                  <h1 class="has-text-align-center">Integritetspolicy</h1>
+
+
+
+                  <h2>Vilka vi är</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Vår webbplatsadress är: http://192.168.0.6/wordpress.</p>
+
+
+
+                  <h2>Kommentarer</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>När besökare lämnar kommentarer på webbplatsen samlar vi in de uppgifter som visas i kommentarsformuläret samt besökarens IP-adress och webbläsarens användaragent-sträng som hjälp för detektering av skräppost.</p>
+
+
+
+                  <p>En anonymiserad sträng som skapats utifrån din e-postadress (även kallat hash-värde) kan komma att sändas till tjänsten Gravatar för att avgöra om du finns registrerad där. Integritetspolicyn för tjänsten Gravatar finns på https://automattic.com/privacy/. När din kommentar har godkänts visas din profilbild offentligt tillsammans med din kommentar.</p>
+
+
+
+                  <h2>Media</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Om du laddar upp bilder till webbplatsen bör du undvika att ladda upp bilder där EXIF-data inkluderar data från GPS-lokalisering. Besökare till webbplatsen kan ladda ned och ta fram alla positioneringsuppgifter från bilder på webbplatsen.</p>
+
+
+
+                  <h2>Cookie-filer</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Om du lämnar en kommentar på vår webbplats kan du välja att spara ditt namn, din e-postadress och webbplatsadress i cookie-filer. Detta är för din bekvämlighet för att du inte ska behöva fylla i dessa uppgifter igen nästa gång du skriver en kommentar. Dessa cookie-filer gäller i ett år.</p>
+
+
+
+                  <p>Om du besöker vår inloggningssida kommer vi att sätta en tillfällig cookie för att undersöka om din webbläsare accepterar dem. Denna cookie innehåller inga personuppgifter och den försvinner när du stänger din webbläsare.</p>
+
+
+
+                  <p>När du loggar in kommer vi dessutom att skapa flera cookie-filer för att spara information om din inloggning och dina val för utformning av skärmlayouten. Cookie-filer för inloggning gäller i två dagar och cookie-filer för layoutval gäller i ett år. Om du kryssar i ”Kom ihåg mig” kommer din cookie att finnas kvar i två veckor. Om du loggar ut från ditt konto kommer cookie-filerna för inloggning att tas bort.</p>
+
+
+
+                  <p>Om du redigerar eller publicerar en artikel kommer en extra cookie-fil att sparas i din webbläsare. Denna cookie-fil innehåller inga personuppgifter utan anger endast inläggs-ID för den artikel du just redigerade och löper ut efter ett dygn.</p>
+
+
+
+                  <h2>Inbäddad innehåll från andra webbplatser</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Artiklar på denna webbplats kan innehålla inbäddat innehåll (exempelvis videoklipp, bilder, artiklar o.s.v.). Inbäddat innehåll från andra webbplatser beter sig precis på samma sätt som om besökaren har besökt den andra webbplatsen.</p>
+
+
+
+                  <p>Dessa webbplatser kan samla in uppgifter om dig, använda cookie-filer, bädda in ytterligare spårning från tredje part och övervaka din interaktion med sagda inbäddade innehåll, inklusive spårning av din interaktion med detta inbäddade innehåll om du har ett konto och är inloggad på webbplatsen i fråga.</p>
+
+
+
+                  <h2>Vilka vi delar dina data med</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Om du begär återställning av lösenordet kommer din IP-adress att ingå i e-postmeddelandet om återställning.</p>
+
+
+
+                  <h2>Hur länge vi behåller era uppgifter</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Om du skriver en kommentar kommer kommentaren och dess metadata att sparas utan tidsgräns. Anledningen till detta är att vi behöver kunna hitta och godkänna uppföljningskommentarer automatiskt och inte lägga dem i kö för granskning.</p>
+
+
+
+                  <p>För användare som registrerar sig på er webbplats (om sådana finns) sparar vi även de personuppgifter de anger i sin användarprofil. Alla användare kan se, redigera eller radera sina personuppgifter när som helst (med undantaget att de inte kan ändra sitt användarnamn). Även webbplatsens administratörer kan se och redigera denna information.</p>
+
+
+
+                  <h2>Vilka rättigheter du har över dina data</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Om du har ett konto eller har skrivit några kommentarer på denna webbplats kan du begära en exportfil med de personuppgifter vi har om dig, inklusive alla uppgifter du har gett oss. Du kan också begära att vi tar bort alla personuppgifter vi har om dig. Detta omfattar inte eventuella uppgifter som vi är tvungna att spara av administrativa, legala eller säkerhetsändamål.</p>
+
+
+
+                  <h2>Vart dina uppgifter skickas</h2>
+
+
+
+                  <p><strong class="privacy-policy-tutorial">Föreslagen text: </strong>Kommentarer från besökare kanske kontrolleras via en automatiserad tjänst för detektering av skräppost.</p>
+                        </article>
+                      </div>
+                  </main>
+
+
+
+<footer class="col-12 col-s-12 footer-distributed">
+  <div class="footer-left">
+  <img class="footericon" src="img/footerImg.png" width="61" height="61"  alt="Icon" >
+      <h3>Min Hemsida</h3>
+      <p class="footer-company-name">© <span id="copyright"></span> Snow Production Studios  |  <a href="integritetspolicy.html">Integritetspolicy</a></p>
+  </div>
+  <div class="footer-center">
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-map-marker"></i>
+            <p><span>Stadstad</span>
+            123 45 Landland, Sweden</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-phone"></i>
+          <p>+46-1234567</p>
+      </div>
+      <div class="footer-padding">
+          <i class="footerIcon fa fa-envelope"></i>
+          <p><a href="mailto:support@placeholder">exempel@minhemsida.com</a></p>
+      </div>
+      <p class="footer-links">
+          <a href="index.html">Hem</a>
+          |
+          <a href="cv.html">CV</a>
+          |
+          <a href="om-mig.html">Om mig</a>
+          |
+          <a href="kontakt.html">Kontakt</a>
+      </p>
+  </div>
+  <div class="footer-right">
+  <div class="footer-translate">[gtranslate] </div>
+  <div class="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked>
+        <label for="theme" class="toggle-label">
+        <img src="img/moon.png" alt="Dark mode" class="toggle-icon">
+        </label>
+      </div>
+      <p class="footer-company-about">
+          <br><span>Om mig</span>
+          En hemsida för information, CV och utförda arbete av mig.</p>
+  </div>
+  </footer>
+  <!-- links the css and javascript files, and adds the wordpress admin header to the web page -->
+
+            <!-- fontawesome css -->
+          <link href="fontawesome_5.15.4/css/fontawesome.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/solid.css" rel="stylesheet">
+          <link href="fontawesome_5.15.4/css/brands.css" rel="stylesheet">
+          <!-- fontawesome javascript -->
+          <script defer src="fontawesome_5.15.4/js/solid.js"></script>
+          <script defer src="fontawesome_5.15.4/js/brands.js"></script>
+          <script defer src="fontawesome_5.15.4/js/fontawesome.js"></script>
+  </body>
+  </html>
